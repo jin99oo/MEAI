@@ -1,0 +1,4682 @@
+=====Map2===== (村庄1)
+
+**********Event1********** (EV001) (13,17)
+-----Page1-----
+#Message#
+Loaded successfully. You have entered EORY Town!
+##
+
+#Message#
+Mission is [Scan All Areas of EORY Town]
+##
+
+#Message#
+Your name is
+##
+
+#Message#
+Great, \N[1]. Now go ahead and explore to your heart's content. 
+I'll come find you again once the entire town has been scanned.
+##
+
+
+**********Event2********** (EV002) (8,10)
+-----Page1-----
+{Leo}
+#Message#
+Hey there! A new face, huh? Just get into town?
+##
+
+{Leo}
+#Message#
+The name's Leo. I'd love to play host and show you around, 
+but right now. I'm in a huge rush to take care of something, 
+so my hands are completely tied. Since we crossed paths, 
+though, could you do me a quick solid? 
+##
+
+#Choice#
+Yes
+No
+##
+
+<Yes>
+
+{Leo}
+#Message#
+I left my cactus back in the office, and I really need it. 
+Mind grabbing it for me?
+##
+
+{\N[1]}
+#Message#
+Where exactly is your office?
+##
+
+{Leo}
+#Message#
+It's the very last building up ahead. As for where the cactus is...
+Uh, you can't miss it once you walk in. Just bring it over, alright? 
+Thanks a ton, I'll grab you a cold drink later!
+##
+
+{\N[1]}
+#Message#
+Alright, fine...
+##
+
+#Message#
+Side Quest Accepted: [Help Leo Find His Cactus]
+##
+
+<No>
+
+{Leo}
+#Message#
+Huh? Turned me down just like that? 
+Come on, kid, don't be so cold.
+##
+
+{Leo}
+#Message#
+Look, this place isn't huge, but it's definitely not tiny either. 
+You're new here, so you're gonna need my help sooner or 
+later.
+##
+
+{Leo}
+#Message#
+I'm really in a massive pinch right now.
+Long story short, you're helping me out with this cactus 
+today whether you like it or not.
+##
+
+#Message#
+Side Quest Accepted: [Help Leo Find His Cactus]
+##
+
+
+**********Event3********** (EV003) (19,9)
+-----Page1-----
+{Panes}
+#Message#
+Hey! Watch where you're going! Out of the way, maphead!
+If you make my delivery late, 
+can you even afford to pay for it?!
+##
+
+{Lurib}
+#Message#
+Oh. Last I checked, you don't own the road. 
+I suggest you go learn some manners first.
+##
+
+#Message#
+Observe the two closely. 
+Who appears to be on the verge of snapping?
+##
+
+#Choice#
+Lurib
+Panes
+##
+
+<Lurib>
+
+#Message#
+Please enter the reason for your choice.
+##
+
+<Panes>
+
+#Message#
+Please enter the reason for your choice.
+##
+
+#Message#
+Who do you believe is actually controlling the situation?
+##
+
+#Choice#
+Lurib
+Panes
+##
+
+<Lurib>
+
+<Panes>
+
+-----Page2-----
+{Panes}
+#Message#
+Cut the fancy talk! You newspaper folks write nothing 
+but garbage anyway! You must've stolen my delivery slip!
+Now, 
+pull this cart back to the shop right this second, that's an
+order!
+##
+
+{Lurib}
+#Message#
+Pushing a cart? That's manual labor. 
+I only do the brainwork, high-IQ stuff. 
+As for your delivery slip...
+##
+
+{Lurib}
+#Message#
+Hasn't it been sticking out of your back pocket this whole
+time?  With a memory like that, it's a miracle your weapons
+ shop makes any money at all.
+##
+
+#Message#
+Determine whether either of their psychological 
+defense mechanisms has shaken.
+##
+
+#Choice#
+Lurib is shaken
+Panes is shaken
+Both are shaken
+Neither is shaken
+##
+
+<Lurib is shaken>
+
+#Message#
+Please enter the reason for your choice.
+##
+
+<Panes is shaken>
+
+#Message#
+Please enter the reason for your choice.
+##
+
+<Both are shaken>
+
+#Message#
+Please enter the reason for your choice.
+##
+
+<Neither is shaken>
+
+#Message#
+Please enter the reason for your choice.
+##
+
+#Message#
+How do you think their conversation will play out?
+##
+
+#Choice#
+They come to blows
+Nothing happens
+##
+
+<They come to blows>
+
+<Nothing happens>
+
+-----Page3-----
+{Panes}
+#Message#
+Shut up! Just shut up, you pathetic hack! What do you know
+about real honest work?!
+I'm so ticked off! Get lost!!
+##
+
+{Lurib}
+#Message#
+Loud voice. Too bad it's just impotent rage.
+##
+
+{Lurib}
+#Message#
+Oh, hey \N[1], you're here too?
+##
+
+{Lurib}
+#Message#
+We should get moving before someone tries to charge you 
+a toll for blocking his way.
+##
+
+#Message#
+[Scene Scan Complete]
+##
+
+{\N[1]}
+#Message#
+Wait, scan??
+##
+
+
+**********Event7********** (EV007) (16,24)
+-----Page1-----
+{Panes}
+#Message#
+\N[1]! Where the hell have you been?! I've been waiting
+forever!
+##
+
+{Panes}
+#Message#
+Where's my stuff? Don't tell me you showed up 
+empty-handed!
+##
+
+{\N[1]}
+#Message#
+And you are...? Do I know you?
+##
+
+{Panes}
+#Message#
+Huh?! Did you get kicked in the head or something?!
+##
+
+{Panes}
+#Message#
+Where's that blue outfit I told you to grab from my place 
+last time?
+##
+
+{Panes}
+#Message#
+...Wait, where did I leave it again? Whatever, just go get it,
+and make it snappy!
+##
+
+{Panes}
+#Message#
+What's taking you so long? The weapons shop needs 
+to open!
+##
+
+{Panes}
+#Message#
+Cut the chatter. Go do it now, this very second!
+##
+
+{\N[1]}
+#Message#
+Ah, so he's the weapons shop owner. Perfect chance to go
+to his place and run a scan.
+##
+
+#Message#
+Side Quest Accepted: [Help Panes Find His Clothes]
+##
+
+-----Page2-----
+{Panes}
+#Message#
+Finally brought it? ...Wait, did I even tell you to grab this one?
+##
+
+{Panes}
+#Message#
+Ugh, whatever! At least you finally used your brain for once.
+Man, you were driving me crazy!
+##
+
+-----Page3-----
+{Palles}
+#Message#
+Hi,\N[1], we meet again.
+##
+
+{Palles}
+#Message#
+Congrats on helping Panes get his clothes!
+##
+
+{Palles}
+#Message#
+How would you characterize Panes' behavior?
+##
+
+{\N[1]}
+#Message#
+I think his behavior is...
+##
+
+#Choice#
+It makes me tolerate his rudeness.
+It gives me a chance to scan his place.
+It'll help me handle him better next time.
+I don't really feel anything about it.
+##
+
+<It makes me tolerate his rudeness.>
+
+<It gives me a chance to scan his place.>
+
+<It'll help me handle him better next time.>
+
+<I don't really feel anything about it.>
+
+{Palles}
+#Message#
+Please look closely. Do you think the following statement is
+an objective description?
+##
+
+{Palles}
+#Message#
+When I first met Panes, he pointed out that I arrived later 
+than he expected. He claimed that I was supposed to help 
+get his blue clothes. After I went to the other room and 
+retrieved them, I handed them to him.
+##
+
+#Choice#
+Yes
+No
+##
+
+<Yes>
+
+{Palles}
+#Message#
+Please repeat that back to me.
+##
+
+<No>
+
+{Palles}
+#Message#
+Could you share what you consider to be an objective 
+description?
+##
+
+{Palles}
+#Message#
+That was excellent! I love it.
+##
+
+#Message#
+[Side Quest Complete]
+##
+
+#Message#
+[Scene Scan Complete]
+##
+
+{Palles}
+#Message#
+A storm is rolling in! Go take cover at the inn—it's the
+building on the far right with 'INN' written on it.
+##
+
+
+**********Event11********** (EV011) (17,9)
+-----Page1-----
+{\N[1]}
+#Message#
+Isn't that Lurib and Panes? What are they doing here?
+##
+
+{\N[1]}
+#Message#
+Let's go check it out.
+##
+
+
+**********Event13********** (EV013) (20,14)
+-----Page2-----
+#Message#
+Something feels off...
+##
+
+#ScrollingMessage#
+Loading [Understanding Sanef's Past]
+##
+
+
+**********Event14********** (EV014) (10,8)
+-----Page1-----
+#Message#
+What is this place...?
+##
+
+
+**********Event16********** (EV016) (23,4)
+-----Page1-----
+#Message#
+Locked
+##
+
+-----Page2-----
+#Message#
+Locked
+##
+
+
+**********Event17********** (EV017) (2,22)
+-----Page2-----
+#Message#
+Something feels off...
+##
+
+#ScrollingMessage#
+Loading [Understanding Laiuys's Past]
+##
+
+
+**********Event25********** (EV025) (18,6)
+-----Page1-----
+{Dofeng}
+#Message#
+Cough, cough
+##
+
+{Dofeng}
+#Message#
+What are you doing in front of my house?
+##
+
+{Dioem}
+#Message#
+Hey, kiddo! Want some BBQ? Look at you, you're skinny 
+as a rail!
+##
+
+{Dofeng}
+#Message#
+What... what are you even doing here...
+##
+
+{Dofeng}
+#Message#
+I'm not hungry. Just mind your own business and eat.
+##
+
+#Message#
+This is already the third time Dofeng has found his 
+adventurer sister, Dioem, who ran away from home long 
+ago, grilling meat right outside his door. Every time, it 
+smells incredible. But he still refuses.
+Should Dioem keep pressing Dofeng to have some BBQ?
+##
+
+#Choice#
+Yes, maybe Dofeng is just being shy and defensive. She should keep pushing.
+No, if he's going to be ungrateful, then forget it.
+##
+
+<Yes, maybe Dofeng is just being shy and defensive. She should keep pushing.>
+
+<No, if he's going to be ungrateful, then forget it.>
+
+-----Page2-----
+{Dioem}
+#Message#
+Cut the crap! You can't survive out here without eating meat!
+From now on, I've got your back. If anyone tries to mess with
+you, just tell me what you want to eat! Big sis will get it for 
+you.
+##
+
+{Dofeng}
+#Message#
+Got my back? Stop acting so high and mighty! What do you
+know?! You're so amazing, of course everyone likes you!
+##
+
+{Dofeng}
+#Message#
+You have absolutely no idea what it actually means to be
+bullied.
+##
+
+{Dofeng}
+#Message#
+You don't have a clue what it feels like to be hated by 
+everyone and treated like garbage by your teachers!
+##
+
+#Message#
+Dofeng suddenly flies into a rage. Is his anger driven by a 
+hatred for Dioem, or is there another reason?
+##
+
+#Choice#
+Dofeng didn't run away. He's just losing control of his 
+emotions, so he might actually be scared.
+Dofeng hates Dioem, so Dioem decides to snap right back at
+ him.
+##
+
+<Dofeng didn't run away. He's just losing control of his 
+emotions, so he might actually be scared.>
+
+<Dofeng hates Dioem, so Dioem decides to snap right back 
+at him.>
+
+{Dioem}
+#Message#
+Fine, don't eat then! See if I care!
+##
+
+-----Page3-----
+{Dofeng}
+#Message#
+Whatever, I'm just a useless piece of trash anyway. Just stop
+ bothering me.
+##
+
+{Dofeng}
+#Message#
+Go live your glamorous adventurer life and don't come back.
+##
+
+#Message#
+If you were Dioem right now, what would you choose to do?
+##
+
+#Choice#
+Respect his wishes, turn around and leave, and let him cool down.
+Ignore his reverse psychology, give him a hug, and comfort him.
+##
+
+<Respect his wishes, turn around and leave, and let him cool down.>
+
+<Ignore his reverse psychology, give him a hug, and comfort him.>
+
+{Dioem}
+#Message#
+Stop crying! I'm staying for a long time this time around. 
+Those punks who bullied you can wait in line to get wrecked by me!
+##
+
+{Dioem}
+#Message#
+Starting today, you're the vice leader of my adventure guild. 
+Now eat up, and once you're full, help me carry my luggage 
+inside!
+##
+
+#Message#
+[Scanning Task Completed]
+##
+
+
+
+=====Map3===== (房屋D2-C消息轰炸)
+
+**********Event1********** (EV001) (5,8)
+-----Page1-----
+{\N[1]}
+#Message#
+Finally time to rest. Today's classes were completely 
+exhausting.
+##
+
+{\N[1]}
+#Message#
+Time to brush up and go to bed. Gotta wake up early 
+tomorrow.
+##
+
+
+**********Event2********** (EV002) (6,5)
+-----Page1-----
+#Message#
+You suddenly receive a barrage of messages.
+##
+
+#Message#
+Side quest unlocked.
+##
+
+#Message#
+At this moment, you think...
+##
+
+#Choice#
+The world keeps turning, someone just needs to get on the 
+same page with me.
+With this many messages, something major must have 
+happened. There goes my sleep tonight.
+Maybe it's a text from the person I like.
+##
+
+<The world keeps turning, someone just needs to get on the same page with me.>
+
+<With this many messages, something major must have happened. There goes my sleep tonight.>
+
+<Maybe it's a text from the person I like.>
+
+{\N[1]}
+#Message#
+I'm way too tired right now. I'll check the messages after I
+ finish getting ready for bed.
+##
+
+
+**********Event4********** (EV004) (11,8)
+-----Page1-----
+{\N[1]}
+#Message#
+Looks like there really is quite a lot on my plate, but I can 
+tackle them in batches and phases.
+##
+
+{\N[1]}
+#Message#
+I can handle the most urgent matters first; no need to fix
+ everything all at once.
+##
+
+#Message#
+Do you think this is the right approach?
+##
+
+#Choice#
+Yes
+No
+##
+
+<Yes>
+
+#Message#
+Please state your reasoning.
+##
+
+<No>
+
+#Message#
+Please state your reasoning.
+##
+
+{\N[1]}
+#Message#
+Finally, I can sleep in peace.
+##
+
+-----Page2-----
+{Cemo}
+#Message#
+Not bad, \N[1]. Looks like you've already mastered 
+how to handle the stress of unread messages.
+##
+
+#Message#
+[Side Quest Completed]
+##
+
+#Message#
+[Scene Scan Completed]
+##
+
+{Cemo}
+#Message#
+We only have one last challenge left now. Feeling 
+confident?
+##
+
+#Choice#
+You bet
+I'm a little tired
+##
+
+<You bet>
+
+<I'm a little tired>
+
+{Cemo}
+#Message#
+No worries, you can always come back and find me 
+whenever you're ready to jump in.
+##
+
+
+
+=====Map4===== (衣服D1-2)
+
+**********Event1********** (EV001) (6,5)
+-----Page1-----
+#Message#
+Obtained the [Clothes] that Panes wanted.
+##
+
+
+**********Event3********** (EV003) (8,8)
+-----Page1-----
+#Message#
+I heard Panes's clothes are in the blue chest. Just open the chest and you'll find them!
+##
+
+
+
+=====Map5===== (客栈D1-3+4)
+
+**********Event5********** (EV005) (5,12)
+-----Page1-----
+#Message#
+[Scene Scan Completed]
+##
+
+
+**********Event6********** (EV006) (5,5)
+-----Page1-----
+{Anna}
+#Message#
+Is there anything I can help you with?
+##
+
+-----Page2-----
+{Anna}
+#Message#
+Hello, \N[1]. How's the weather today?
+##
+
+{\N[1]}
+#Message#
+It's alright, I guess.
+##
+
+{Anna}
+#Message#
+I'm the innkeeper. If you need anything, just come find me.
+##
+
+{Anna}
+#Message#
+Come on in and take a load off, have a chat with everyone.
+##
+
+#Message#
+Obtained side quest: [Chat with everyone in the inn]
+##
+
+-----Page3-----
+{Anna}
+#Message#
+Whoa, what on earth is this? Why did you suddenly shove this at me?
+##
+
+{\N[1]}
+#Message#
+Banso told me I could trade gems for gold coins with you.
+##
+
+{Anna}
+#Message#
+Oh! Silly me, where is my head today? This place sees so many people coming and going every day. I hand out dozens of errands, if not a hundred.
+##
+
+{Anna}
+#Message#
+I've been so incredibly busy that it completely slipped my 
+mind.
+##
+
+{\N[1]}
+#Message#
+No worries. Can I trade for the gold coins now?
+##
+
+{Anna}
+#Message#
+Banso, that deadbeat drunk again...
+##
+
+{\N[1]}
+#Message#
+What's wrong?
+##
+
+{Anna}
+#Message#
+He doesn't know the first thing about quests! He spends all day drowned in booze and can barely even remember his own name, yet he has the nerve to give people directions?
+##
+
+{Anna}
+#Message#
+He told you the deadline was today? Ha! What a total joke! This quest expired yesterday, and that Lucas kid already walked away with the 100 gold coins.
+##
+
+{\N[1]}
+#Message#
+What?? I'm going to go have a word with Banso.
+##
+
+{Anna}
+#Message#
+Then again... call it a soft spot, but seeing how you ran all the way here dripping with sweat, I'll give you 5% off if you stay at my inn tonight.
+##
+
+{\N[1]}
+#Message#
+Maybe next time.
+##
+
+
+**********Event7********** (EV007) (11,4)
+-----Page1-----
+{Banso}
+#Message#
+Bring me a bottle of booze!
+##
+
+-----Page3-----
+{Banso}
+#Message#
+Hey, did you hear? If you can make it past that damn stone statue in the middle of town and grab the gems before tomorrow, you can take them to Anna and exchange them for 100 gold coins! 100 coins! Think of how much good liquor that could buy...
+##
+
+{\N[1]}
+#Message#
+Really? Is the stone statue in the center of town even passable right now?
+##
+
+{Banso}
+#Message#
+Of course it is! Once you take the quest, anything goes, but  you'd better watch your step. Don't let this tiny town fool you; it's crawling with hidden experts in the shadows! Besides, Anna said it only takes 5 gems. Just 5! For 100 gold coins!
+##
+
+{Banso}
+#Message#
+So, what do you say? Tempted?
+##
+
+{\N[1]}
+#Message#
+I...
+##
+
+#Choice#
+I'm really not interested.
+Sounds pretty good, honestly.
+##
+
+<I'm really not interested.>
+
+{Banso}
+#Message#
+Pfft! What a spineless coward! A golden opportunity to strike it rich is staring you right in the face, and you just turn your back and say you're not interested?
+##
+
+{\N[1]}
+#Message#
+Why don't you go yourself?
+##
+
+{Banso}
+#Message#
+If my hand weren't ruined... if this damn hand could still hold an axe... they wouldn't be squat! I would've snatched up every single gem a long time ago...
+##
+
+{\N[1]}
+#Message#
+Alright, well, let me think about it.
+##
+
+{\N[1]}
+#Message#
+That being said, I guess I still have to accept this quest to finish the scanning task.
+##
+
+<Sounds pretty good, honestly.>
+
+{\N[1]}
+#Message#
+Why don't you go yourself?
+##
+
+{Banso}
+#Message#
+Heh, look at me. I'm just a cripple who can't even hold a heavy hammer steady anymore. There's no way I can get past that statue...
+##
+
+{\N[1]}
+#Message#
+I'll give it a shot. If I pull it off, I'll bring you back a little something nice.
+##
+
+{Banso}
+#Message#
+Now that's what I'm talking about! Go get 'em, kid. I really hope you can actually bring those damn gems back! Can't wait to see the show!
+##
+
+#Message#
+Obtained side quest: [Obtain 5 gems and deliver them to Anna]
+##
+
+-----Page4-----
+{Banso}
+#Message#
+Oh! Well look who it is! You actually pulled it off and got the gems?! Hahaha! So, now that you've struck it rich, you've gotta have a bottle of good booze for me, right? Hand it over, quick!
+##
+
+{\N[1]}
+#Message#
+A gift? Did you even know the deadline for the quest was yesterday?!
+##
+
+{Banso}
+#Message#
+Wh-what?! Dammit... it's because I drank myself unconscious last night, my brain is absolute mush...I actually got the date wrong?!
+##
+
+{Banso}
+#Message#
+Pah! No, wait! How is this on me?! It's all Anna's fault for mumbling and being vague when she put the quest out!
+##
+
+{Banso}
+#Message#
+That woman's head is filled with nothing but schemes. She definitely screwed people over on purpose!
+##
+
+-----Page5-----
+{Palles}
+#Message#
+Hi,\N[1]
+##
+
+{Palles}
+#Message#
+What do you think of Banso's behavior?
+##
+
+{\N[1]}
+#Message#
+I think his behavior...
+##
+
+#Choice#
+Taught me the importance of double-checking the details.
+Gave me a chance to complete the scanning task.
+Made me realize I have a real knack for finding things.
+Didn't really feel much of anything about it.
+##
+
+<Taught me the importance of double-checking the details.>
+
+<Gave me a chance to complete the scanning task.>
+
+<Made me realize I have a real knack for finding things.>
+
+<Didn't really feel much of anything about it.>
+
+{Palles}
+#Message#
+Please take a look at this. Do you think the following statement is an objective description?
+##
+
+{Palles}
+#Message#
+Without confirming if the quest was still valid, Banso gave expired quest information to \N[1] and encouraged them to take it, resulting in \N[1] making a trip for nothing. Afterward, he admitted he got the deadline wrong due to drinking, but immediately blamed part of the responsibility on Anna.
+##
+
+#Choice#
+Yes
+No
+##
+
+<Yes>
+
+{Palles}
+#Message#
+Please repeat it back to me.
+##
+
+<No>
+
+{Palles}
+#Message#
+Could you tell me what you would consider an objective description?
+##
+
+{Palles}
+#Message#
+That was wonderfully said! I love it.
+##
+
+#Message#
+Congratulations on completing the side quest!
+##
+
+
+**********Event8********** (EV008) (10,10)
+-----Page1-----
+{Laiuys}
+#Message#
+So boring! Why isn't anything interesting happening?
+##
+
+
+**********Event9********** (EV009) (11,10)
+-----Page1-----
+{Soug}
+#Message#
+I really like Laiuys, but I have no idea how to talk to her...
+##
+
+{Soug}
+#Message#
+Whatever you do, don't tell her!
+##
+
+-----Page2-----
+{Soug}
+#Message#
+I really like Laiuys, but I have no idea how to talk to her...
+##
+
+{Soug}
+#Message#
+Whatever you do, don't tell her!
+##
+
+-----Page4-----
+{Soug}
+#Message#
+And you are...?
+##
+
+{\N[1]}
+#Message#
+I'm \N[1]. I just arrived in town today.
+##
+
+{Soug}
+#Message#
+Oh, a newcomer! How do you like our town so far?
+##
+
+{\N[1]}
+#Message#
+Not sure yet, but it seems pretty fun, and I want to look around.
+##
+
+{Soug}
+#Message#
+Haha, the scenery around here is definitely quite nice.
+##
+
+{\N[1]}
+#Message#
+Have you lived here your whole life?
+##
+
+{Soug}
+#Message#
+Of course, I...
+##
+
+{Soug}
+#Message#
+My favorite spot is...
+##
+
+{Laiuys}
+#Message#
+What are you guys talking about?
+##
+
+{\N[1]}
+#Message#
+And you are? We were just chatting about the scenery around here.
+##
+
+{Soug}
+#Message#
+Allow me to introduce you, this is Lai...
+##
+
+{Laiuys}
+#Message#
+I'm Laiuys. What "nice scenery" does this town even have? Must be some country bumpkin from out of town.
+##
+
+{\N[1]}
+#Message#
+I think it's beautiful here, and well worth exploring.
+##
+
+{Laiuys}
+#Message#
+How boring. Let's go, Soug.
+##
+
+
+**********Event10********** (EV010) (13,11)
+-----Page1-----
+{Palles}
+#Message#
+Hi,\N[1]
+##
+
+{Palles}
+#Message#
+What do you think of Laiuys's behavior?
+##
+
+{\N[1]}
+#Message#
+I think she...
+##
+
+#Choice#
+Might be in a bad mood.
+Doesn't like looking at scenery.
+Is very abrasive.
+Didn't really feel much of anything about it.
+Is targeting me.
+##
+
+<Might be in a bad mood.>
+
+<Doesn't like looking at scenery.>
+
+<Is very abrasive.>
+
+<Didn't really feel much of anything about it.>
+
+<Is targeting me.>
+
+{Palles}
+#Message#
+Please take a look at this. Do you think the following statement is an objective description?
+##
+
+{Palles}
+#Message#
+Upon joining the conversation, Laiuys asked about the nature of the ongoing discussion. After learning that \N[1] was an outsider, she made a disparaging remark, subsequently responded negatively to \N[1]'s opinion about the town's scenery, and cut the conversation short by suggesting to Soug that they leave the scene.
+##
+
+#Choice#
+Yes
+No
+##
+
+<Yes>
+
+{Palles}
+#Message#
+Please repeat it back to me.
+##
+
+<No>
+
+{Palles}
+#Message#
+Could you tell me what you would consider an objective description?
+##
+
+{Palles}
+#Message#
+That was wonderfully said! I love it.
+##
+
+#Message#
+Congratulations on completing the side quest!
+##
+
+
+**********Event12********** (EV012) (5,10)
+-----Page1-----
+#Message#
+Welcome to the inn! Go say hello to the innkeeper; she's
+ right behind the counter.
+##
+
+
+
+=====Map7===== (武器防具店D4-3-2)
+
+**********Event3********** (EV003) (11,7)
+-----Page1-----
+{\N[1]}
+#Message#
+So that's what Laiuys's past was like...
+##
+
+{Palles}
+#Message#
+Hi, \N[1]!
+##
+
+{Palles}
+#Message#
+When you face Laiuys again, what will you say to her?
+##
+
+{\N[1]}
+#Message#
+Me...?
+##
+
+#Choice#
+If I went through everything you did, I'd probably be just as wary of outsiders.
+You must have had a really tough time all by yourself all these years.
+I can understand the misfortunes of your past, but that's no excuse.
+So what? You totally deserved everything that happened to you.
+##
+
+<If I went through everything you did, I'd probably be just as wary of outsiders.>
+
+#Message#
+Please enter your reasoning for saying this.
+##
+
+<You must have had a really tough time all by yourself all these years.>
+
+#Message#
+Please enter your reasoning for saying this.
+##
+
+<I can understand the misfortunes of your past, but that's no excuse.>
+
+#Message#
+Please enter your reasoning for saying this.
+##
+
+<So what? You totally deserved everything that happened to you.>
+
+#Message#
+Please enter your reasoning for saying this.
+##
+
+{Palles}
+#Message#
+I see. That's a very good reason.
+##
+
+#Message#
+[Side Quest Completed]
+##
+
+#Message#
+[Scanning Task Completed]
+##
+
+
+**********Event4********** (EV004) (8,9)
+-----Page1-----
+{Soug (Young)}
+#Message#
+Why are you home alone? Where's your mom?
+##
+
+{Laiuys (Young)}
+#Message#
+Should I tell Soug...?
+##
+
+#Choice#
+Yes
+No
+##
+
+<Yes>
+
+{Laiuys (Young)}
+#Message#
+I don't know... Mom went out to buy food that day and never came back.
+##
+
+{Soug (Young)}
+#Message#
+Have you had anything to eat these past few days? Are you hungry?
+##
+
+{Laiuys (Young)}
+#Message#
+A little...
+##
+
+{Soug (Young)}
+#Message#
+I'll take you to my house to get some food. Why don't you come live with us from now on?
+##
+
+{Laiuys (Young)}
+#Message#
+No... I want to wait for Mom to come back.
+##
+
+{Soug (Young)}
+#Message#
+I can take you to see your dad today. Do you want to go?
+##
+
+{Laiuys (Young)}
+#Message#
+Really? Let's go, quick!
+##
+
+<No>
+
+{Laiuys (Young)}
+#Message#
+Did you need something from me?
+##
+
+{Soug (Young)}
+#Message#
+Do you want to see your dad? I talked to my dad, and he said I can take you.
+##
+
+{Laiuys (Young)}
+#Message#
+Really? Let's go, quick!
+##
+
+
+
+=====Map8===== (酒馆D2-1)
+
+**********Event5********** (EV005) (5,9)
+-----Page1-----
+{Cemo}
+#Message#
+Welcome to the Wonder Tavern! There are plenty of unexpected things here.
+##
+
+#Message#
+Do you know what entering this tavern means?
+##
+
+#Choice#
+Yes
+No
+##
+
+<Yes>
+
+#Message#
+Do you think you can handle it?
+##
+
+#Choice#
+Yes
+No
+##
+
+<Yes>
+
+#Message#
+...Loading...
+##
+
+<No>
+
+<No>
+
+#Message#
+There are plenty of mini-quests waiting for you to challenge!  \N[1], do you want to give it a try?
+##
+
+#Choice#
+Yes
+No
+##
+
+<Yes>
+
+#Message#
+...Loading...
+##
+
+<No>
+
+
+
+=====Map12===== (房屋D4-52)
+
+**********Event3********** (EV003) (8,9)
+-----Page1-----
+{Cemo}
+#Message#
+Welcome to the Wonder Tavern! There are plenty of 
+unexpected things here.
+##
+
+#Message#
+Do you know what entering this tavern means?
+##
+
+#Choice#
+Yes
+No
+##
+
+<Yes>
+
+#Message#
+Do you think you can handle it?
+##
+
+#Choice#
+Yes
+No
+##
+
+<Yes>
+
+#Message#
+...Loading...
+##
+
+<No>
+
+<No>
+
+#Message#
+There are plenty of mini-quests waiting for you to challenge!
+ \N[1], do you want to give it a try?
+##
+
+#Choice#
+Yes
+No
+##
+
+<Yes>
+
+#Message#
+...Loading...
+##
+
+<No>
+
+
+
+=====Map28===== (村长的家1层D4-3-1)
+
+**********Event5********** (EV005) (10,14)
+-----Page1-----
+#Message#
+[Scanning Task Completed]
+##
+
+
+**********Event7********** (EV007) (8,8)
+-----Page1-----
+{Laiuys's Mother}
+#Message#
+Chief, please, I beg of you, help us get our money back! It's all that outsider's fault!
+##
+
+{Village Chief}
+#Message#
+Sigh... This mess the two of you made has gotten completely out of hand!
+##
+
+{Village Chief}
+#Message#
+Besides, everything that happened was ultimately Laiuys's father's own choice.
+##
+
+{Laiuys's Mother}
+#Message#
+If it weren't for that outsider, how could our family have ever ended up like this...
+##
+
+{Laiuys's Mother}
+#Message#
+You know how honest Laiuys's father has always been!
+##
+
+{Laiuys's Mother}
+#Message#
+He only ever cared about making weapons... If it weren't for that outsider, he would have never turned to gambling!
+##
+
+{Village Chief}
+#Message#
+Say no more. Laiuys is still young, so focus on taking care of her and living your lives. As for her father, he embezzled so much money to gamble and now has no weapons to show for it. There is nothing left to do but wait for the court's judgment.
+##
+
+{Village Chief}
+#Message#
+As for that outsider, I will have a word with him.
+##
+
+{Laiuys's Mother}
+#Message#
+Chief, please help us...
+##
+
+{Soug}
+#Message#
+Dad, I want to go horseback riding! Do you have time today?
+##
+
+{Village Chief}
+#Message#
+I'll take you in a little bit. Go upstairs for now.
+##
+
+{Village Chief}
+#Message#
+You should take Laiuys and head on home for now.
+##
+
+
+
+=====Map32===== (仙人掌D1-1)
+
+**********Event4********** (EV004) (12,15)
+-----Page1-----
+#Message#
+[Scanning Task Completed]
+##
+
+
+**********Event5********** (EV005) (6,6)
+-----Page1-----
+{Lurib}
+#Message#
+Hello, I'm Lurib. Who might you be?
+##
+
+{\N[1]}
+#Message#
+Hello, Lurib. I'm here to help Leo look for a cactus, but...
+##
+
+{Lurib}
+#Message#
+Oh... Marin sent you? She's got nothing better to do, but she
+ sure knows how to cause trouble for me.
+##
+
+{Lurib}
+#Message#
+A cactus? Why don't you poke your own eyes out and take a
+ look at that messy table behind me? 
+Does it look like a place where any plant could survive?
+##
+
+#Choice#
+I'll go take a look.
+I don't see one.
+##
+
+<I'll go take a look.>
+
+<I don't see one.>
+
+{Lurib}
+#Message#
+Tsk, quit asking me. Even saying two more words is 
+exhausting. Go bother Seldia instead. She was 
+born to hustle, so she definitely knows more than I 
+do.
+##
+
+
+**********Event6********** (EV006) (15,11)
+-----Page1-----
+{\N[1]}
+#Message#
+Hello, I'm \N[1]...
+##
+
+{Marin}
+#Message#
+Tsk. Can't you see I'm busy? I'm Marin. I punch out and head
+ home at 5:30 sharp, and dinner prep has already started 
+back home. I don't have time to waste hanging around here 
+with you.
+##
+
+{\N[1]}
+#Message#
+Leo sent me to help him look for a cactus.
+##
+
+{Marin}
+#Message#
+Looking for a cactus? Are your eyes just decorative? If it's
+ not on the desk, is it on the ceiling?
+##
+
+#Choice#
+I'll go look for it.
+I don't see one.
+##
+
+<I'll go look for it.>
+
+<I don't see one.>
+
+{Marin}
+#Message#
+Alright, alright, stop blocking my light. Go ask Lurib!
+##
+
+{\N[1]}
+#Message#
+Who is Lurib...?
+##
+
+{Marin}
+#Message#
+How to spot him? Ha, anyone with eyes can tell at a glance. 
+He's the only one in the entire newspaper office with blue 
+hair. Hard to miss!
+##
+
+
+**********Event7********** (EV007) (13,7)
+-----Page1-----
+{Seldia}
+#Message#
+Oh, hello there! I'm Seldia. I've been waiting for you!
+##
+
+{Seldia}
+#Message#
+You're here for that potted cactus, right?  Gosh, Lurib and Marin just mentioned it to me.  Honestly, Lurib does nothing but slack off all day, so the newspaper office's performance relies entirely on me. I'm so busy I don't even have time to catch my breath!
+##
+
+{Seldia}
+#Message#
+Take a look, the cactus is right there on the floor next to the
+desk! Do you see it?
+##
+
+{Seldia}
+#Message#
+By the way... after you take this potted plant, do you still need that plastic saucer underneath it? I'm planning to take it home to put under my mom's half-dead garlic plant, so I don't have to waste money buying a new one.
+##
+
+
+**********Event8********** (EV008) (9,7)
+-----Page1-----
+{Leo}
+#Message#
+Haven't found it yet? 
+You're taking a bit long...
+##
+
+
+**********Event9********** (EV009) (9,8)
+-----Page1-----
+{Leo}
+#Message#
+Haven't found it yet? 
+You're taking a bit long...
+##
+
+
+**********Event10********** (EV010) (16,9)
+-----Page1-----
+#Message#
+Congratulations! You obtained a [Cactus].
+##
+
+
+**********Event11********** (EV011) (10,11)
+-----Page1-----
+{Palles}
+#Message#
+Hi, \N[1]!
+##
+
+{Palles}
+#Message#
+How are you feeling right now?
+##
+
+{\N[1]}
+#Message#
+How I'm feeling...?
+##
+
+#Choice#
+This side quest is such a hassle.
+These people are playing with me.
+I don't really have any thoughts on it.
+I finally found it.
+##
+
+<This side quest is such a hassle.>
+
+<These people are playing with me.>
+
+<I don't really have any thoughts on it.>
+
+<I finally found it.>
+
+{Palles}
+#Message#
+Please take a look at this. Do you think the following statement is an objective description?
+##
+
+{Palles}
+#Message#
+Leo commissioned \N[1] to retrieve a cactus from the office. \N[1] inquired with three individuals in succession, and ultimately, the last person pointed out that the cactus was on the floor beside the desk and requested to keep the plastic saucer underneath the potted plant.
+##
+
+#Choice#
+Yes
+No
+##
+
+<Yes>
+
+{Palles}
+#Message#
+Please repeat it back to me.
+##
+
+<No>
+
+{Palles}
+#Message#
+Could you tell me what you would consider an objective description?
+##
+
+{Palles}
+#Message#
+That was wonderfully said! I love it.
+##
+
+#Message#
+Congratulations on completing the side quest!
+##
+
+
+
+=====Map41===== (酒馆D2-11收盘子)
+
+**********Event5********** (EV005) (5,5)
+-----Page1-----
+{Cemo}
+#Message#
+Hi \N[1], I am the owner of this tavern. Today your task is 
+to help me put away all the chairs within a 30-second time 
+limit. Once completed, I can give you some gold coins, which 
+you can use to buy anything you want.
+##
+
+{Cemo}
+#Message#
+Also, you need to place the collected chairs in the 
+bottom-left corner.
+##
+
+#Message#
+Do you accept the quest?
+##
+
+#Choice#
+Yes
+No
+##
+
+<Yes>
+
+{Cemo}
+#Message#
+You can observe the environment first. Come talk to me 
+whenever you're ready to start.
+##
+
+<No>
+
+{Cemo}
+#Message#
+No problem. You can always come back to me if you want
+to participate.
+##
+
+-----Page2-----
+{Cemo}
+#Message#
+Are you ready to start the quest?
+##
+
+#Choice#
+Yes
+No
+##
+
+<Yes>
+
+#ScrollingMessage#
+Congratulations on unlocking the mini-game: 
+[Put Away All Chairs in the Tavern]
+##
+
+#Message#
+The timer has started!
+##
+
+<No>
+
+{\N[1]}
+#Message#
+I'd like to quit this game.
+##
+
+{Cemo}
+#Message#
+No problem. You can always come back to me if you want
+ to participate.
+##
+
+-----Page3-----
+{Cemo}
+#Message#
+Fantastic! As expected, this mini-game was no match for 
+you.
+##
+
+{Cemo}
+#Message#
+Did you find this task stressful?
+##
+
+#Choice#
+Yes
+No
+Don't know
+##
+
+<Yes>
+
+<No>
+
+{Palles}
+#Message#
+If you could do it over again, would you still participate in 
+this game?
+##
+
+#Choice#
+Yes
+No
+##
+
+<Yes>
+
+{Palles}
+#Message#
+Haha, we'll see if there's another chance next time!
+##
+
+<No>
+
+{Palles}
+#Message#
+Haha, don't worry, this game is over for now.
+##
+
+<Don't know>
+
+{Palles}
+#Message#
+If you could do it over again, would you still participate in
+this game?
+##
+
+#Choice#
+Yes
+No
+##
+
+<Yes>
+
+{Palles}
+#Message#
+Haha, we'll see if there's another chance next time!
+##
+
+<No>
+
+{Palles}
+#Message#
+Haha, don't worry, this game is over for now.
+##
+
+{Cemo}
+#Message#
+Are you ready for the next challenge now?
+##
+
+#Choice#
+Of course
+I'd like to take a break
+##
+
+<Of course>
+
+<I'd like to take a break>
+
+{Cemo}
+#Message#
+No problem. You can always come back to me if you want
+ to participate.
+##
+
+
+**********Event23********** (EV023) (3,8)
+-----Page2-----
+#Message#
+Congratulations on putting away all the chairs!
+##
+
+
+
+=====Map42===== (酒馆D2-1所有不参加小游戏)
+
+**********Event4********** (EV004) (5,11)
+-----Page1-----
+#Message#
+[Scanning Task Completed]
+##
+
+
+**********Event5********** (EV005) (5,5)
+-----Page2-----
+{Cemo}
+#Message#
+Hi \N[1], are you here to take on an uncompleted quest?
+##
+
+#Choice#
+Yes
+No
+##
+
+<Yes>
+
+{Cemo}
+#Message#
+Which quest would you like to take on?
+##
+
+#Choice#
+Classroom Scene
+Home Scene
+Roadside Scene
+##
+
+<Classroom Scene>
+
+{Cemo}
+#Message#
+No problem, let's head out.
+##
+
+<Home Scene>
+
+{Cemo}
+#Message#
+No problem, let's head out.
+##
+
+<Roadside Scene>
+
+{Cemo}
+#Message#
+No problem, let's head out.
+##
+
+<No>
+
+{Cemo}
+#Message#
+Alright, feel free to look around then.
+##
+
+
+
+=====Map43===== (开始)
+
+**********Event1********** (EV001) (8,6)
+-----Page1-----
+#Message#
+Loading EORY Town...
+##
+
+
+
+=====Map44===== (房屋D2-C2消息轰炸)
+
+**********Event1********** (EV001) (5,8)
+-----Page1-----
+{\N[1]}
+#Message#
+Finally, I can get some rest. A whole day of classes today was
+ so exhausting.
+##
+
+{\N[1]}
+#Message#
+Time to wash up and go to bed. I have to get up early 
+tomorrow.
+##
+
+
+**********Event2********** (EV002) (6,5)
+-----Page1-----
+#Message#
+Suddenly, you receive a flurry of messages.
+##
+
+#Message#
+Side Quest Unlocked
+##
+
+#Message#
+At this moment, you think:
+##
+
+#Choice#
+The world keeps spinning; someone needs to sync information with me.
+With this many messages, something huge must have happened. There goes my sleep tonight.
+Maybe it's a message from someone I like.
+##
+
+<The world keeps spinning; someone needs to sync information with me.>
+
+<With this many messages, something huge must have happened. There goes my sleep tonight.>
+
+<Maybe it's a message from someone I like.>
+
+{\N[1]}
+#Message#
+I'm completely exhausted right now. I'll finish washing up
+before checking the messages.
+##
+
+
+**********Event3********** (EV003) (8,11)
+-----Page1-----
+#Message#
+[Side Quest Completed]
+##
+
+#Message#
+[Scene Scan Completed]
+##
+
+
+**********Event4********** (EV004) (11,8)
+-----Page1-----
+{\N[1]}
+#Message#
+It looks like there really is quite a lot to do, but I can handle 
+them in batches and over different periods.
+##
+
+{\N[1]}
+#Message#
+I can take care of the most urgent matters first, without 
+having to solve every single problem all at once.
+##
+
+#Message#
+Do you think this is correct?
+##
+
+#Choice#
+Yes
+No
+##
+
+<Yes>
+
+#Message#
+Please state your reasoning for thinking so.
+##
+
+<No>
+
+#Message#
+Please state your reasoning for thinking so.
+##
+
+{\N[1]}
+#Message#
+Finally, I can sleep in peace.
+##
+
+-----Page2-----
+{Cemo}
+#Message#
+Not bad, \N[1]! It looks like you've already mastered how to
+handle the pressure of being flooded with messages.
+##
+
+#Message#
+[Side Quest Completed]
+##
+
+#Message#
+[Scene Scan Completed]
+##
+
+
+
+=====Map45===== (道路D2-D2老师不理人)
+
+**********Event3********** (EV003) (24,13)
+-----Page1-----
+{\N[1]}
+#Message#
+Teacher Selof!!
+##
+
+{\N[1]}
+#Message#
+Teacher Selof!!
+##
+
+{\N[1]}
+#Message#
+How strange, why is Teacher Selof ignoring me?
+##
+
+#Message#
+At this moment, you think Teacher Selof:
+##
+
+#Choice#
+Might be wearing headphones and didn't hear me.
+Is lost in thought and distracted.
+Is unsatisfied with my recent performance.
+Is targeting me.
+##
+
+<Might be wearing headphones and didn't hear me.>
+
+{\N[1]}
+#Message#
+It looks like the teacher's headphones are really good 
+quality. I should go ask what brand they are.
+##
+
+<Is lost in thought and distracted.>
+
+{\N[1]}
+#Message#
+The teacher looks exhausted. I'd better just say a quick hello
+ and head out.
+##
+
+<Is unsatisfied with my recent performance.>
+
+#Message#
+Please enter what you think Teacher Selof is unsatisfied with
+regarding your performance.
+##
+
+<Is targeting me.>
+
+#Message#
+Please enter the reason why you think Teacher Selof is 
+targeting you.
+##
+
+{Teacher Selof}
+#Message#
+\N[1], were you calling me?
+##
+
+{Teacher Selof}
+#Message#
+I was just thinking about the study plan the principal 
+mentioned to me and didn't catch your voice clearly. I'm 
+sorry!
+##
+
+{\N[1]}
+#Message#
+I believe that going through this experience has taught me
+ not to look at things in the worst possible light.
+##
+
+#Choice#
+Yes
+No
+##
+
+<Yes>
+
+<No>
+
+{\N[1]}
+#Message#
+Then what I've learned is...
+##
+
+#Message#
+[Side Quest Completed]
+##
+
+
+**********Event4********** (EV004) (27,6)
+-----Page1-----
+{\N[1]}
+#Message#
+Teacher Selof is right up ahead! Should I go over and say
+ hello to her?
+##
+
+#Choice#
+Yes
+No
+##
+
+<Yes>
+
+{\N[1]}
+#Message#
+Teacher Selof is usually pretty nice to me. This is a perfect
+ chance to have a quick chat with her.
+##
+
+<No>
+
+{\N[1]}
+#Message#
+Teacher Selof is usually pretty nice to me and always 
+encourages me. I think I'll go over and say hello after all.
+##
+
+#Message#
+Side Quest Unlocked
+##
+
+
+
+**********Event5********** (EV005) (24,12)
+-----Page1-----
+{\N[1]}
+#Message#
+Teacher Selof!!
+##
+
+{\N[1]}
+#Message#
+Teacher Selof!!
+##
+
+{\N[1]}
+#Message#
+How strange, why is Teacher Selof ignoring me?
+##
+
+#Message#
+At this moment, you think Teacher Selof:
+##
+
+#Choice#
+Might be wearing headphones and didn't hear me.
+Is lost in thought and distracted.
+Is unsatisfied with my recent performance.
+Is targeting me.
+##
+
+<Might be wearing headphones and didn't hear me.>
+
+{\N[1]}
+#Message#
+It looks like the teacher's headphones are really good 
+quality. I should go ask what brand they are.
+##
+
+<Is lost in thought and distracted.>
+
+{\N[1]}
+#Message#
+The teacher looks exhausted. I'd better just say a quick hello
+ and head out.
+##
+
+<Is unsatisfied with my recent performance.>
+
+#Message#
+Please enter what you think Teacher Selof is unsatisfied with
+ regarding your performance.
+##
+
+<Is targeting me.>
+
+#Message#
+Please enter the reason why you think Teacher Selof is 
+targeting you.
+##
+
+{Teacher Selof}
+#Message#
+\N[1], were you calling me?
+##
+
+{Teacher Selof}
+#Message#
+I was just thinking about the study plan the principal 
+mentioned to me and didn't catch your voice clearly. I'm 
+sorry!
+##
+
+{\N[1]}
+#Message#
+I believe that going through this experience has taught me 
+not to look at things in the worst possible light.
+##
+
+#Choice#
+Yes
+No
+##
+
+<Yes>
+
+<No>
+
+{\N[1]}
+#Message#
+Then what I've learned is...
+##
+
+#Message#
+[Side Quest Completed]
+##
+
+
+**********Event6********** (EV006) (28,16)
+-----Page1-----
+{Cemo}
+#Message#
+Not bad, \N[1]! It looks like you've already learned 
+how to assess the situations you encounter.
+##
+
+{Cemo}
+#Message#
+The tavern challenge ends here! If you ever want to buy a 
+drink, feel free to come find me anytime. I'd be more than 
+happy to have you.
+##
+
+#Message#
+[Scene Scan Completed]
+##
+
+
+
+=====Map46===== (小教堂D2-B2窃窃私语)
+
+**********Event9********** (EV009) (9,13)
+-----Page2-----
+{Dofeng}
+#Message#
+Cough cough
+##
+
+
+**********Event20********** (EV020) (11,14)
+-----Page2-----
+{\N[1]}
+#Message#
+Why did everything suddenly go so quiet... Looks like I'd better hurry back to my seat...
+##
+
+
+**********Event21********** (EV021) (9,11)
+-----Page1-----
+#Message#
+Side Quest Unlocked
+##
+
+#Message#
+They suddenly stopped talking. What do you think this means?
+##
+
+#Choice#
+The reality is that class is about to start.
+Their sudden silence has nothing to do with me.
+I'm being ostracized by my classmates.
+##
+
+<The reality is that class is about to start.>
+
+<Their sudden silence has nothing to do with me.>
+
+<I'm being ostracized by my classmates.>
+
+
+**********Event22********** (EV022) (11,13)
+-----Page1-----
+{Teacher Selof}
+#Message#
+Sorry, everyone. I'm running a little late.
+##
+
+{Teacher Selof}
+#Message#
+Let's get ready to start class now!
+##
+
+-----Page2-----
+{\N[1]}
+#Message#
+That's a relief!
+##
+
+{\N[1]}
+#Message#
+It looks like my classmates didn't suddenly stop talking because they were targeting me.
+##
+
+{\N[1]}
+#Message#
+I think I can learn something from this experience, like blaming myself less when things happen.
+##
+
+#Choice#
+Yes
+No
+##
+
+<Yes>
+
+#Message#
+I think the benefit of doing this is...
+##
+
+<No>
+
+#Message#
+I think it is...
+##
+
+#Message#
+[Side Quest Completed]
+##
+
+#Message#
+[Scene Scan Completed]
+##
+
+
+
+=====Map84===== (小教堂D2-B窃窃私语)
+
+**********Event9********** (EV009) (9,13)
+-----Page2-----
+{Dofeng}
+#Message#
+Cough cough
+##
+
+
+**********Event20********** (EV020) (11,14)
+-----Page2-----
+{\N[1]}
+#Message#
+Why did everything suddenly go so quiet... Looks like I'd 
+better hurry back to my seat...
+##
+
+
+**********Event21********** (EV021) (9,11)
+-----Page1-----
+#Message#
+Side Quest Unlocked
+##
+
+#Message#
+They suddenly stopped talking. What do you think this 
+means?
+##
+
+#Choice#
+The reality is that class is about to start.
+Their sudden silence has nothing to do with me.
+I'm being ostracized by my classmates.
+##
+
+<The reality is that class is about to start.>
+
+<Their sudden silence has nothing to do with me.>
+
+<I'm being ostracized by my classmates.>
+
+
+**********Event22********** (EV022) (11,13)
+-----Page1-----
+{Teacher Selof}
+#Message#
+Sorry, everyone. I'm running a little late.
+##
+
+{Teacher Selof}
+#Message#
+Let's get ready to start class now!
+##
+
+-----Page2-----
+{\N[1]}
+#Message#
+That's a relief!
+##
+
+{\N[1]}
+#Message#
+It looks like my classmates didn't suddenly stop talking 
+because they were targeting me.
+##
+
+{\N[1]}
+#Message#
+I think I can learn something from this experience, like 
+blaming myself less when things happen.
+##
+
+#Choice#
+{Yes}
+{No}
+##
+
+<Yes>
+
+#Message#
+I think the benefit of doing this is...
+##
+
+<No>
+
+#Message#
+I think it is...
+##
+
+#Message#
+[Side Quest Completed]
+##
+
+#Message#
+[Scene Scan Completed]
+##
+
+
+**********Event22********** (EV022) (11,13)
+-----Page1-----
+{Teacher Selof}
+#Message#
+Sorry, everyone. I'm running a little late.
+##
+
+{Teacher Selof}
+#Message#
+Let's get ready to start class now!
+##
+
+-----Page2-----
+{\N[1]}
+#Message#
+That's a relief!
+##
+
+{\N[1]}
+#Message#
+It looks like my classmates didn't suddenly stop talking 
+because they were targeting me.
+##
+
+{\N[1]}
+#Message#
+I think I can learn something from this experience, like 
+blaming myself less when things happen.
+##
+
+#Choice#
+Yes
+No
+##
+
+<Yes>
+
+#Message#
+I think the benefit of doing this is...
+##
+
+<No>
+
+#Message#
+I think it is...
+##
+
+{Cemo}
+#Message#
+It looks like you weren't quite satisfied with this scenario theater. Follow me next!
+##
+
+#Choice#
+Let's go!
+I'd like to take a break
+##
+
+<Let's go!>
+
+#Message#
+[Side Quest Completed]
+##
+
+#Message#
+[Scene Scan Completed]
+##
+
+<I'd like to take a break>
+
+{Cemo}
+#Message#
+No problem. You can always come back to me if you want to participate.
+##
+
+
+
+=====Map92===== (城堡 地牢D4-3-3)
+
+**********Event1********** (EV001) (5,12)
+-----Page2-----
+#Message#
+I can win it back... I can win it back...
+##
+
+
+**********Event2********** (EV002) (4,6)
+-----Page2-----
+{Laiuys' Father}
+#Message#
+Laiuys, what are you doing here?
+##
+
+{Laiuys}
+#Message#
+Soug brought me here.
+##
+
+{Laiuys' Father}
+#Message#
+Where is your mother? When is she going to get me out of here?
+##
+
+#Message#
+Should you tell your father that your mother left?
+##
+
+#Choice#
+Yes
+No
+##
+
+<Yes>
+
+{Laiuys}
+#Message#
+Mom said she was going out to buy some groceries last time, and she never came back.
+##
+
+{Laiuys' Father}
+#Message#
+I knew she was no good, running off the moment I got into trouble.
+##
+
+{Laiuys' Father}
+#Message#
+Where is the new merchant? Tell him to come see me!
+##
+
+{Laiuys' Father}
+#Message#
+Just one more game, and all the money in his pockets will be mine!
+##
+
+{Laiuys' Father}
+#Message#
+We'll see who dares to look down on me then!
+##
+
+{Laiuys}
+#Message#
+Dad...
+##
+
+{Laiuys' Father}
+#Message#
+Don't get in the way of my fortune! Go call him right now!
+##
+
+<No>
+
+{Laiuys}
+#Message#
+Mom... Mom is sick, she's resting at home.
+##
+
+{Laiuys' Father}
+#Message#
+Faking it, more like. Who knows if she's just hiding money at home.
+##
+
+{Laiuys' Father}
+#Message#
+Anyway... where is the new merchant? Tell him to come see me!
+##
+
+{Laiuys' Father}
+#Message#
+Just one more game, and all the money in his pockets will be mine!
+##
+
+{Laiuys' Father}
+#Message#
+We'll see who dares to look down on me then!
+##
+
+{Laiuys}
+#Message#
+Dad...
+##
+
+{Laiuys' Father}
+#Message#
+Don't get in the way of my fortune! Go call him right now!
+##
+
+
+**********Event5********** (EV005) (19,12)
+-----Page1-----
+#Message#
+I heard your dad owes a lot of money, and he'll never get out of there for the rest of his life.
+##
+
+
+**********Event8********** (EV008) (12,12)
+-----Page1-----
+#Message#
+Where did this little brat come from, daring to run around wild in the prison?
+##
+
+
+**********Event9********** (EV009) (12,14)
+-----Page1-----
+#Message#
+From then on, Laiuys' life became unbearably miserable. She only managed to grow up thanks to the food provided by the villagers' charity. Soug was her only friend. Like a hedgehog, she bared her quills at anyone who approached Soug, and she stopped showing any kindness to outsiders.
+##
+
+#Message#
+[Scan Task Completed]
+##
+
+
+=====Map118===== (冰之洞窟内部 D4-51)
+
+**********Event2********** (EV002) (11,15)
+-----Page1-----
+{Raku}
+#Message#
+Sanef, you're here. Is the map finished?
+##
+
+#Choice#
+You know me too well, I just finished it.
+Not yet, this cave is just too big.
+##
+
+<You know me too well, I just finished it.>
+
+{Sanef}
+#Message#
+Here's the map.
+##
+
+{Sanef}
+#Message#
+I've also noted down the clues we heard in the tavern.
+##
+
+{Raku}
+#Message#
+It really is great having you as a partner.
+##
+
+{Raku}
+#Message#
+I see there are diamonds on this level. If we can mine them, we'll hit the jackpot.
+##
+
+{Sanef}
+#Message#
+My thoughts exactly.
+##
+
+{Sanef}
+#Message#
+Let's go.
+##
+
+<Not yet, this cave is just too big.>
+
+{Raku}
+#Message#
+Which parts are left? Let's finish it together.
+##
+
+{Sanef}
+#Message#
+Just this level left.
+##
+
+{Raku}
+#Message#
+Let's go.
+##
+
+{Sanef}
+#Message#
+By the way, there are diamonds on this level. If we can find them, your sister's illness...
+##
+
+{Raku}
+#Message#
+Let's hope luck is on our side today.
+##
+
+
+**********Event3********** (EV003) (14,10)
+-----Page1-----
+#Message#
+Where did these young punks come from? This is my territory!
+##
+
+#Message#
+Ask him what he is doing?
+##
+
+#Choice#
+Yes
+No
+##
+
+<Yes>
+
+{Sanef}
+#Message#
+Is there something here?
+##
+
+#Message#
+What a bunch of greenhorns. I'm drawing a lottery, you didn't even know that?
+##
+
+#Message#
+Looking at your gear, you guys must be explorers too. How could you not know this?
+##
+
+{Sanef}
+#Message#
+A lottery? That's definitely a first for me. Have you heard of it, Raku?
+##
+
+{Raku}
+#Message#
+Nope. Don't believe in this stuff, let's go.
+##
+
+<No>
+
+-----Page2-----
+{Sanef}
+#Message#
+We've searched everywhere here, but there's no sign of the diamonds. Where could they be?
+##
+
+{Raku}
+#Message#
+Maybe... we should go ask that guy again. He might have gotten to them first.
+##
+
+-----Page3-----
+{Sanef}
+#Message#
+Excuse me... what kind of prizes can you get from this lottery?
+##
+
+#Message#
+Only the best stuff. Want to play?
+##
+
+#Choice#
+Yes
+No
+##
+
+<Yes>
+
+#Message#
+You need lottery tickets to start playing.
+##
+
+#Message#
+Go find out for yourselves how to get your hands on some lottery tickets.
+##
+
+<No>
+
+#Message#
+Then out of the way, don't pass your bad luck onto me.
+##
+
+
+**********Event4********** (EV004) (7,13)
+-----Page1-----
+#Message#
+Congratulations, you obtained [Useless Stone]
+##
+
+
+**********Event5********** (EV005) (16,12)
+-----Page1-----
+#Message#
+Congratulations, you obtained [Gem Fragment]
+##
+
+
+**********Event6********** (EV006) (9,9)
+-----Page1-----
+#Message#
+Congratulations, you obtained [Gem Fragment]
+##
+
+
+**********Event7********** (EV007) (11,19)
+-----Page1-----
+#Message#
+Congratulations, you obtained [Useless Stone]
+##
+
+
+**********Event8********** (EV008) (14,14)
+-----Page1-----
+#Message#
+Congratulations, you obtained [Gem Fragment]
+##
+
+
+**********Event9********** (EV009) (13,25)
+-----Page1-----
+{Raku}
+#Message#
+Wait... it looks like I dropped something.
+##
+
+-----Page2-----
+{Sanef}
+#Message#
+What's taking Raku so long to get back?
+##
+
+{Sanef}
+#Message#
+I should go look for him.
+##
+
+{Raku}
+#Message#
+Sanef, you head back first. I still have some business to take care of here.
+##
+
+#Message#
+Stay with Raku?
+##
+
+#Choice#
+Yes
+No
+##
+
+<Yes>
+
+{Sanef}
+#Message#
+You aren't planning to play the lottery, are you? Did he tell you how to get lottery tickets?
+##
+
+{Raku}
+#Message#
+Go on back first, I'll tell you about it later.
+##
+
+{Raku}
+#Message#
+Let's go.
+##
+
+{Sanef}
+#Message#
+Alright, I'll head out first. Stay safe.
+##
+
+<No>
+
+{Sanef}
+#Message#
+Alright, I'll head out first. Stay safe.
+##
+
+
+
+=====Map137===== (黄金神殿内部)
+
+**********Event1********** (EV001) (15,14)
+-----Page1-----
+#Message#
+[Congratulations, \N[1], on helping 
+the ME-AI system complete the scan of EORY Town
+##
+
+#Message#
+High-dimensional channel opened. 
+The ME-AI system is loading...
+##
+
+#Message#
+Loading successful. Releasing executor cognitive lock.
+##
+
+
+
+=====Map154===== (森林D1-5)
+
+**********Event1********** (EV001) (24,12)
+-----Page1-----
+#Message#
+The next day
+##
+
+-----Page2-----
+#Message#
+[Scan Task Completed]
+##
+
+#Message#
+The next day
+##
+
+
+**********Event2********** (EV002) (6,17)
+-----Page1-----
+{\N[1]}
+#Message#
+...Where is this place? I'd better take a good look around.
+##
+
+
+**********Event3********** (EV003) (5,21)
+-----Page1-----
+{Palles}
+#Message#
+Hi, \N[1], we meet again.
+##
+
+{Palles}
+#Message#
+Congratulations on completing the side quest.
+##
+
+{Palles}
+#Message#
+How would you describe Sanef's behavior?
+##
+
+{\N[1]}
+#Message#
+Who is Sanef?
+##
+
+{Palles}
+#Message#
+Oh, you forgot who Sanef was. He's the one who kept playing the lottery.
+##
+
+{\N[1]}
+#Message#
+I think his behavior...
+##
+
+#Choice#
+Chose a different approach
+Is pretty good at the lottery
+Is not a bad thing
+Deliberately stalled for time
+##
+
+<Chose a different approach>
+
+<Is pretty good at the lottery>
+
+<Is not a bad thing>
+
+<Deliberately stalled for time>
+
+{Palles}
+#Message#
+Please take a close look. Do you think the following statement is an objective description?
+##
+
+{Palles}
+#Message#
+Sanef initially provided \N[1] with a lottery ticket and invited them to participate. He then stated that he preferred the lottery over searching for gems, claiming he had already won a prize. Afterwards, he refused to provide any more lottery tickets, stating he wanted to use them himself. When \N[1] repeatedly asked about the progress of the gems, he grew impatient and told them to stop rushing him. Finally, he handed over a gem from {his own pocket to the other party.
+##
+
+#Choice#
+Yes
+No
+##
+
+<Yes>
+
+{Palles}
+#Message#
+Please repeat it back to me.
+##
+
+<No>
+
+{Palles}
+#Message#
+Could you tell me what you consider to be an objective description?
+##
+
+{Palles}
+#Message#
+Wonderfully said! I really like that.
+##
+
+#Message#
+Congratulations on completing the side quest!
+##
+
+
+**********Event14********** (EV014) (30,14)
+-----Page1-----
+{\N[1]}
+#Message#
+Hello, I am \N[1]
+##
+
+{Dioem}
+#Message#
+I know you, we're teammates after all! I'm looking for gems here, and I've already searched this entire area.
+##
+
+{Dioem}
+#Message#
+There shouldn't be any other gems left.
+##
+
+{Dioem}
+#Message#
+But feel free to take another look around.
+##
+
+{\N[1]}
+#Message#
+Then I'll go check out some other places.
+##
+
+-----Page2-----
+{\N[1]}
+#Message#
+It looks like I haven't found enough gems...
+##
+
+{Dioem}
+#Message#
+It seems you've been working really hard to find gems too.
+##
+
+{Dioem}
+#Message#
+Here, you can have all three of these gems!
+##
+
+{Dioem}
+#Message#
+Let's both keep searching and see what we can find.
+##
+
+-----Page3-----
+{Dioem}
+#Message#
+I haven't found any other gems...
+##
+
+
+**********Event15********** (EV015) (27,15)
+-----Page1-----
+#Message#
+Congratulations, you found a Golden Apple!
+##
+
+
+**********Event16********** (EV016) (7,7)
+-----Page1-----
+#Message:
+Congratulations on finding a gem!
+##
+
+
+**********Event17********** (EV017) (6,15)
+-----Page1-----
+{Mao}
+#Message#
+I've finally been waiting for you. We need to collect 12 gems.
+##
+
+{\N[1]}
+#Message#
+Wait, wait, wait...
+##
+
+{Mao}
+#Message#
+But I heard that a Golden Apple can be exchanged for 3 gems.
+##
+
+{Mao}
+#Message#
+See if you can find one; I've been looking for ages and haven't seen any.
+##
+
+{Mao}
+#Message#
+I'll keep looking for gems here, you can go check out other places.
+##
+
+{\N[1]}
+#Message#
+What's up with this girl? She didn't even listen to me and just suddenly threw a quest at me.
+##
+
+{\N[1]}
+#Message#
+Oh well, I have to scan this place anyway, so I might as well go check it out. We can complete the quest together, and maybe I'll get to know her too.
+##
+
+#Message#
+Obtained Side Quest [Work Together to Find 12 Gems]
+##
+
+-----Page2-----
+{Mao}
+#Message#
+I found all the gems! What about you?
+##
+
+{\N[1]}
+#Message#
+I found the Golden Apple!
+##
+
+{Mao}
+#Message#
+Great! In that case, we've gathered all the gems!
+##
+
+{\N[1]}
+#Message#
+I haven't found enough yet.
+##
+
+{Mao}
+#Message#
+Ah, it really isn't easy to complete, is it? Let me give you these 3 gems first, and you can keep looking.
+##
+
+{Mao}
+#Message#
+But... why don't you try searching for a Golden Apple? It might be faster that way.
+##
+
+-----Page3-----
+{Mao}
+#Message#
+Haven't found it yet?... You're a bit slow.
+##
+
+-----Page4-----
+{Mao}
+#Message#
+It seems like we need to go find an old lady to turn in the quest...
+##
+
+
+**********Event18********** (EV018) (29,12)
+-----Page1-----
+#Message#
+Congratulations on finding a gem!
+##
+
+
+**********Event19********** (EV019) (21,6)
+-----Page1-----
+{unnamed}
+#Message#
+Want to play the lottery? There's a chance you could win a gem.
+##
+
+#Choice#
+Yes
+No
+##
+
+<Yes>
+
+<No>
+
+{unnamed}
+#Message#
+Come back next time!
+##
+
+
+**********Event20********** (EV020) (22,6)
+-----Page1-----
+{Sanef}
+#Message#
+Hi, \N[1], I'm playing the wheel game. Do you want to play? I can give you two tickets.
+##
+
+#Choice#
+Yes
+##
+
+<Yes>
+
+{Sanef}
+#Message#
+Here are your lottery tickets, enjoy yourself!
+##
+
+{\N[1]}
+#Message#
+What kind of prizes are in the lottery pool?
+##
+
+{Sanef}
+#Message#
+See for yourself, and stop bothering me.
+##
+
+{\N[1]}
+#Message#
+Are we teammates who are supposed to find 12 gems together?
+##
+
+{Sanef}
+#Message#
+I know we need to find gems, but I think the lottery is faster.
+##
+
+{Sanef}
+#Message#
+Besides, I've already won something now.
+##
+
+-----Page2-----
+{\N[1]}
+#Message#
+Sanef...
+##
+
+{Sanef}
+#Message#
+I don't have any more lottery tickets to give you. I need to use the rest myself!
+##
+
+-----Page3-----
+{\N[1]}
+#Message#
+Sanef, have you gathered all the gems?
+##
+
+{Sanef}
+#Message#
+Are you getting annoying or what? Rushing me non-stop. 
+I haven't won another one yet, just wait a bit.
+##
+
+{Sanef}
+#Message#
+Here, take this gem I have on me first, and stop bothering me.
+##
+
+
+
+=====Map189===== (道路D2-D老师不理人)
+
+**********Event3********** (EV003) (24,13)
+-----Page1-----
+{\N[1]}
+#Message#
+Teacher Selof!!
+##
+
+{\N[1]}
+#Message#
+Teacher Selof!!
+##
+
+{\N[1]}
+#Message#
+Strange... why is Teacher Selof ignoring me?
+##
+
+#Message#
+At this moment, you think Teacher Selof...
+##
+
+#Choice#
+Might be wearing headphones and didn't hear me
+Is lost in thought and distracted
+Is unhappy with my recent performance
+Is targeting me maliciously
+##
+
+<Might be wearing headphones and didn't hear me>
+
+{\N[1]}
+#Message#
+Looks like Teacher's headphones are pretty high quality. I'll
+ go ask what brand they are.
+##
+
+<Is lost in thought and distracted>
+
+{\N[1]}
+#Message#
+Teacher looks really tired. I think I'll just say a quick hello 
+and leave.
+##
+
+<Is unhappy with my recent performance>
+
+#Message#
+Please input the reason why you think Teacher Selof is 
+unhappy with you.
+##
+
+<Is targeting me maliciously>
+
+#Message#
+Please input the reason why you think Teacher Selof is 
+targeting you.
+##
+
+{Teacher Selof}
+#Message#
+\N[1], were you calling me?
+##
+
+{Teacher Selof}
+#Message#
+I was just thinking about the study plan the principal gave
+ me and didn't hear your voice clearly. Sorry about that!
+##
+
+{\N[1]}
+#Message#
+I think going through this has taught me not to assume the
+ worst about situations.
+##
+
+#Choice#
+Yes
+No
+##
+
+<Yes>
+
+<No>
+
+{\N[1]}
+#Message#
+Then I learned...
+##
+
+#Message#
+[Side Quest Completed]
+##
+
+
+**********Event4********** (EV004) (27,6)
+-----Page1-----
+{\N[1]}
+#Message#
+Teacher Selof is right ahead! Should I go over and say hello
+to her?
+##
+
+#Choice#
+Yes
+No
+##
+
+<Yes>
+
+{\N[1]}
+#Message#
+Teacher Selof is usually pretty nice to me, so this is a good 
+chance to have a quick chat.
+##
+
+<No>
+
+{\N[1]}
+#Message#
+Teacher Selof is usually pretty nice to me and always 
+encourages me. I should probably go over and say hello after all.
+##
+
+#Message#
+Obtained Side Quest
+##
+
+
+**********Event5********** (EV005) (24,12)
+-----Page1-----
+{\N[1]}
+#Message#
+Teacher Selof!!
+##
+
+{\N[1]}
+#Message#
+Teacher Selof!!
+##
+
+{\N[1]}
+#Message#
+Strange... why is Teacher Selof ignoring me?
+##
+
+#Message#
+At this moment, you think Teacher Selof...
+##
+
+#Choice#
+Might be wearing headphones and didn't hear me
+Is lost in thought and distracted
+Is unhappy with my recent performance
+Is targeting me maliciously
+##
+
+<Might be wearing headphones and didn't hear me>
+
+{\N[1]}
+#Message#
+Looks like Teacher's headphones are pretty high quality. I'll 
+go ask what brand they are.
+##
+
+<Is lost in thought and distracted>
+
+{\N[1]}
+#Message#
+Teacher looks really tired. I think I'll just say a quick hello 
+and leave.
+##
+
+<Is unhappy with my recent performance>
+
+#Message#
+Please input the reason why you think Teacher Selof is 
+unhappy with you.
+##
+
+<Is targeting me maliciously>
+
+#Message#
+Please input the reason why you think Teacher Selof is 
+targeting you.
+##
+
+{Teacher Selof}
+#Message#
+\N[1], were you calling me?
+##
+
+{Teacher Selof}
+#Message#
+I was just thinking about the study plan the principal gave
+ me and didn't hear your voice clearly. Sorry about that!
+##
+
+{\N[1]}
+#Message#
+I think going through this has taught me not to assume the
+ worst about situations.
+##
+
+#Choice#
+Yes
+No
+##
+
+<Yes>
+
+<No>
+
+{\N[1]}
+#Message#
+Then I learned...
+##
+
+#Message#
+[Side Quest Completed]
+##
+
+
+**********Event6********** (EV006) (28,16)
+-----Page1-----
+{Cemo}
+#Message#
+Not bad, \N[1]. It looks like you're already 
+capable of evaluating the situations you encounter.
+##
+
+{Cemo}
+#Message#
+The tavern challenge ends here! If you ever want to buy a 
+drink, feel free to come find me anytime. I'd be happy to 
+have you.
+##
+
+#Message#
+[Scene Scan Completed]
+##
+
+
+
+=====Actors=====
+
+**********Entry1**********
+#Name#
+
+##
+
+#Title#
+
+##
+
+#Profile#
+
+##
+
+
+**********Entry2**********
+#Name#
+Laiuys
+##
+
+#Title#
+
+##
+
+#Profile#
+
+##
+
+
+**********Entry3**********
+#Name#
+Soug
+##
+
+#Title#
+
+##
+
+#Profile#
+
+##
+
+
+**********Entry4**********
+#Name#
+Sanef
+##
+
+#Title#
+
+##
+
+#Profile#
+
+##
+
+
+**********Entry5**********
+#Name#
+Ruke
+##
+
+#Title#
+
+##
+
+#Profile#
+
+##
+
+
+
+=====Classes=====
+
+**********Entry1**********
+#Name#
+player
+##
+
+
+**********Entry2**********
+#Name#
+D1team member
+##
+
+
+**********Entry3**********
+#Name#
+D1leader
+##
+
+
+**********Entry4**********
+#Name#
+D2team member
+##
+
+
+**********Entry5**********
+#Name#
+D2leader
+##
+
+
+**********Entry6**********
+#Name#
+D3team member
+##
+
+
+**********Entry7**********
+#Name#
+D3leader
+##
+
+
+**********Entry8**********
+#Name#
+D4team member
+##
+
+
+**********Entry9**********
+#Name#
+D4leader
+##
+
+
+
+=====Skills=====
+
+**********Entry1**********
+#Name#
+auto scan
+##
+
+#Description#
+
+##
+
+#Message1#
+
+##
+
+#Message2#
+
+##
+
+
+
+=====Items=====
+
+**********Entry1**********
+#Name#
+Cactus
+##
+
+#Description#
+This is a cactus
+##
+
+
+**********Entry2**********
+#Name#
+Leo消失
+##
+
+#Description#
+
+##
+
+
+**********Entry3**********
+#Name#
+soug出现
+##
+
+#Description#
+
+##
+
+
+**********Entry4**********
+#Name#
+D4-5老奶奶出现
+##
+
+#Description#
+
+##
+
+
+**********Entry5**********
+#Name#
+客栈前台聊天券
+##
+
+#Description#
+
+##
+
+
+**********Entry6**********
+#Name#
+Soug聊天券
+##
+
+#Description#
+
+##
+
+
+**********Entry7**********
+#Name#
+Golden Apple
+##
+
+#Description#
+Can be exchanged for 3 gems
+
+##
+
+
+**********Entry8**********
+#Name#
+Gem
+##
+
+#Description#
+
+##
+
+
+**********Entry9**********
+#Name#
+Flower
+##
+
+#Description#
+
+##
+
+
+**********Entry10**********
+#Name#
+Gem Fragment
+##
+
+#Description#
+Has no use and cannot be combined into a gem
+##
+
+
+**********Entry11**********
+#Name#
+Two Gems
+##
+
+#Description#
+
+##
+
+
+**********Entry12**********
+#Name#
+Blue Clothes
+##
+
+#Description#
+
+##
+
+
+**********Entry13**********
+#Name#
+蓝色衣服
+##
+
+#Description#
+
+##
+
+
+**********Entry14**********
+#Name#
+D22
+##
+
+#Description#
+
+##
+
+
+**********Entry15**********
+#Name#
+Lauis聊天券
+##
+
+#Description#
+
+##
+
+
+**********Entry16**********
+#Name#
+进入石像券
+##
+
+#Description#
+
+##
+
+
+**********Entry17**********
+#Name#
+监狱开门
+##
+
+#Description#
+
+##
+
+
+**********Entry18**********
+#Name#
+D2C
+##
+
+#Description#
+
+##
+
+
+**********Entry19**********
+#Name#
+D2D
+##
+
+#Description#
+
+##
+
+
+**********Entry20**********
+#Name#
+Laiyus他妈
+##
+
+#Description#
+出现村长家
+##
+
+
+**********Entry21**********
+#Name#
+Cemo老板给任务1
+##
+
+#Description#
+
+##
+
+
+**********Entry22**********
+#Name#
+Ruke黑化
+##
+
+#Description#
+
+##
+
+
+**********Entry23**********
+#Name#
+酒馆正常椅子
+##
+
+#Description#
+
+##
+
+
+**********Entry24**********
+#Name#
+测试
+##
+
+#Description#
+
+##
+
+
+**********Entry25**********
+#Name#
+窃窃私语
+##
+
+#Description#
+
+##
+
+
+**********Entry26**********
+#Name#
+老师出现
+##
+
+#Description#
+
+##
+
+
+**********Entry27**********
+#Name#
+Diamond
+##
+
+#Description#
+
+##
+
+
+**********Entry28**********
+#Name#
+测试
+##
+
+#Description#
+
+##
+
+
+**********Entry29**********
+#Name#
+测试
+##
+
+#Description#
+
+##
+
+
+**********Entry30**********
+#Name#
+扫描任务
+##
+
+#Description#
+
+##
+
+
+
+=====System=====
+#Title#
+P3
+##
+
+#Currency#
+金币
+##
+
+
+
+=====Types=====
+#SkillTypes#
+
+##
+
+#EquipTypes#
+
+##
+
+
+
+=====Terms=====
+#Level#
+Level
+##
+
+#LevelAbbr#
+LV
+##
+
+#HP#
+Mental Resilience
+##
+
+#HPAbbr#
+Resilience
+##
+
+#MP#
+Psychological Energy
+##
+
+#MPAbbr#
+Energy
+##
+
+#TP#
+Anxiety Level
+##
+
+#TPAbbr#
+Anxiety
+##
+
+#EXP#
+Experience Points
+##
+
+#EXPAbbr#
+EXP
+##
+
+#MaxHP#
+Max Mental Resilience
+##
+
+#MaxMP#
+Max Psychological Energy
+##
+
+#Attack#
+Decentered Thinking
+##
+
+#Defense#
+Deep Breathing
+##
+
+#MAttack#
+Fact-Checking
+##
+
+#MDefense#
+Acceptance
+##
+
+#Agility#
+Agility
+##
+
+#Luck#
+Luck
+##
+
+#HitRate#
+Hit Rate
+##
+
+#EvasionRate#
+Evasion Rate
+##
+
+#Fight#
+Fight
+##
+
+#Escape#
+Escape
+##
+
+#AttackCommand#
+Attack
+##
+
+#GuardCommand#
+Guard
+##
+
+#ItemMenu#
+Items
+##
+
+#SkillMenu#
+Skills
+##
+
+#EquipMenu#
+Equip
+##
+
+#StatusMenu#
+Status
+##
+
+#Formation#
+Formation
+##
+
+#Save#
+Save
+##
+
+#GameEnd#
+Game Over
+##
+
+#Options#
+Options
+##
+
+#Weapon#
+Weapons
+##
+
+#Armor#
+Armor
+##
+
+#KeyItem#
+Key Items
+##
+
+#Equip#
+Equipment
+##
+
+#Optimize#
+Optimize
+##
+
+#Clear#
+Clear
+##
+
+#NewGame#
+New Game
+##
+
+#Continue#
+Continue
+##
+
+#ToTitle#
+To Title
+##
+
+#Cancel#
+Cancel
+##
+
+#Buy#
+Buy
+##
+
+#Sell#
+Sell
+##
+
+#AlwaysDash#
+Always Dash
+##
+
+#CommandRemember#
+Command Remember
+##
+
+#BGMVolume#
+BGM Volume
+##
+
+#BGSVolume#
+BGS Volume
+##
+
+#MEVolume#
+ME Volume
+##
+
+#SEVolume#
+SE Volume
+##
+
+#Possession#
+Possession
+##
+
+#EXPTotal#
+Current %1
+##
+
+#EXPNext#
+To Next %1
+##
+
+#SaveMessage#
+Save to which file?
+##
+
+#LoadMessage#
+Load which file?
+##
+
+#File#
+File
+##
+
+#PartyName#
+%1's Party
+##
+
+#Emerge#
+%1 emerged!
+##
+
+#Preemptive#
+%1 got the upper hand!
+##
+
+#Surprise#
+%1 was caught by surprise!
+##
+
+#EscapeStart#
+%1 started to flee!
+##
+
+#EscapeFailure#
+But could not escape!
+##
+
+#Victory#
+%1 was victorious!
+##
+
+#Defeat#
+%1 was defeated.
+##
+
+#ObtainEXP#
+Obtained %1 %2!
+##
+
+#ObtainGold#
+Obtained %1\G!
+##
+
+#ObtainItem#
+Obtained %1!
+##
+
+#LevelUp#
+%1 reached %2 %3!
+##
+
+#ObtainSkill#
+Learned %1!
+##
+
+#UseItem#
+%1 used %2!
+##
+
+#CriticalToEnemy#
+Critical hit!
+##
+
+#CriticalToActor#
+A painful blow!
+##
+
+#ActorDamage#
+%1 took %2 points of damage!
+##
+
+#ActorRecovery#
+%1 recovered %3 points of %2!
+##
+
+#ActorGain#
+%1's %2 increased by %3 points!
+##
+
+#ActorLoss#
+%1's %2 decreased by %3 points!
+##
+
+#ActorDrain#
+%1 was drained of %3 points of %2!
+##
+
+#ActorNoDamage#
+%1 took no damage!
+##
+
+#ActorNoHit#
+Miss! %1 took no damage!
+##
+
+#EnemyDamage#
+%1 took %2 points of damage!
+##
+
+#EnemyRecovery#
+%1 recovered %3 points of %2!
+##
+
+#EnemyGain#
+%1's %2 increased by %3 points!
+##
+
+#EnemyLoss#
+%1's %2 decreased by %3 points!
+##
+
+#EnemyDrain#
+%1 was drained of %3 points of %2!
+##
+
+#EnemyNoDamage#
+Dealt no damage to %1!
+##
+
+#EnemyNoHit#
+Miss! %1 took no damage!
+##
+
+#Evasion#
+%1 evaded the attack!
+##
+
+#MagicEvasion#
+%1 nullified the magic!
+##
+
+#CounterAttack#
+%1's counterattack!
+##
+
+#Substitute#
+%1 protected %2!
+##
+
+#BuffAdd#
+%1's %2 increased!
+##
+
+#DebuffAdd#
+%1's %2 decreased!
+##
+
+#BuffRemove#
+%1's %2 returned to normal!
+##
+
+#ActionFailure#
+Had no effect on %1!
+##
+
+
+
+=====Speakers=====
+##
+Leo
+Leo
+
+##
+\N[1]
+\N[1]
+
+##
+Panes
+Panes
+
+##
+Lurib
+Lurib
+
+##
+Palles
+Palles
+
+##
+Dofeng
+Dofeng
+
+##
+Dioem
+Dioem
+
+##
+Cemo
+Cemo
+
+##
+Anna
+Anna
+
+##
+Banso
+Banso
+
+##
+Laiuys
+Laiuys
+
+##
+Soug
+Soug
+
+##
+Soug (Young)
+Soug (Young)
+
+##
+Laiuys (Young)
+Laiuys (Young)
+
+##
+Laiuys's Mother
+Laiuys's Mother
+
+##
+Village Chief
+Village Chief
+
+##
+Marin
+Marin
+
+##
+Seldia
+Seldia
+
+##
+Teacher Selof
+Teacher Selof
+
+##
+Laiuys's Father
+Laiuys's Father
+
+##
+Raku
+Raku
+
+##
+Sanef
+Sanef
+
+##
+Mao
+Mao
+
+##
+unnamed
+unnamed
+
+
+
+=====Extra=====
+// Core Language Settings
+
+// The name of the language, as displayed in the options menu. (Defaults to language code if blank.)
+LanguageDisplayName=
+
+// The name of the "Language" option in the options menu.
+LanguageOptionName=语言
+
+// The default font for the language. (Usually GameFont. Will use standard font of base game if not defined.)
+DefaultFont=GameFont
+
+// The standard typing speed of messages. (Default 1x. Will use 1x if not defined.)
+// Supported values: 0.125x, 0.25x, 0.5x, 0.66x, 0.75x, 0.8x, 0.9x, 1x, 1.1x, 1.125x, 1.16x, 1.2x, 1.25x, 1.33x, 1.5x, 1.66x, 2x ("x" and leading "0" can be omitted)
+MessageSpeed=1x
+
+
+// User-Defined Variables
+
+PlaceholderDataName=value

@@ -1,0 +1,1302 @@
+Actor3_7
+Actor3
+Self3
+Laiuys
+Actor1_5
+Actor1
+Soug
+People4
+Sanef
+People2
+Ruke
+player
+D1team member
+D1leader
+D2team member
+D2leader
+D3team member
+D3leader
+D4team member
+D4leader
+let saved = localStorage.getItem("dataLog");
+window.dataLog = [];
+try {
+    window.dataLog = saved ? JSON.parse(saved) : [];
+} catch (e) {
+    window.dataLog = [];
+}
+window.logEvent = function(data) {
+    if (!data) return;
+    window.dataLog.push({
+        time: Date.now(),
+        ...data
+    });
+    localStorage.setItem(
+        "dataLog",
+        JSON.stringify(window.dataLog)
+    );
+};
+InitDataLog
+window.callAI = function(systemPrompt, userText) {
+  return fetch("https://node-s-mohilrjghq.cn-hangzhou.fcapp.run", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify({
+      system: systemPrompt,
+      user: userText
+    })
+  })
+  .then(r => r.json())
+  .then(data => {
+    return data.reply;
+  });
+AI工
+window.callAI = async function(systemPrompt, userText) {
+    const res = await fetch("https://tiny-sound-dee9.zhangjinuk-2024.workers.dev", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify({
+            system: systemPrompt,
+            user: userText
+        })
+const data = await res.json();
+$gameMessage.add(data.reply);
+AI工具++
+    const text = await res.text();
+console.log(text);
+    return text;
+AI工具
+This is a cactus
+Cactus
+Leo disappears
+Soug appears
+D4-5 Old Lady Appears
+Inn Front Desk Chat Voucher
+Soug Chat Voucher
+Can be exchanged for 3 gems
+Golden Apple
+Gem
+Flower
+Has no use and cannot be combined into a gem
+Gem Fragment
+b.mhp / 2
+Two Gems
+Lottery Ticket
+Blue Clothes
+D22
+Lauis Chat Voucher
+Statue Entry Ticket
+Prison Opens
+D2C
+D2D
+Village Chief's House Appears
+Laiyus's Mother
+Boss Cemo Gives Quest 1
+Ruke Turns Dark
+Normal Tavern Chair
+Test
+Whispering
+Teacher Appears
+Diamond
+Scanning Mission
+Town1
+EV001
+A
+People1
+callAI(
+    "你是Panes，在武器店上班，平时老喜欢丢三落四，爱使唤别人，不讲礼貌，性格暴躁。你的回答内容不超过20个中文字符",
+).then(reply => {
+    $gameMessage.add(reply);
+});
+EV002
+Move1
+开局对话
+Field1
+localStorage.setItem(
+    "dataLog",
+    JSON.stringify([])
+);
+Loaded successfully. You have entered EORY Town!
+Your mission this time is [Scan All Areas of EORY Town]
+Your name is
+111_InputForm
+show
+处理字符输入
+输入字段中的 X 位置 = 250
+输入字段中的 Y 位置 = 250
+替换输入结果 = 1
+最大文字数 = 10
+打开时强制退出输入 = 0
+按钮的相对 x 位置 = 0
+按钮的相对 Y 位置 = 50
+字体大小 = 24
+输入字段的初始值 = 
+$gameActors.actor(1).setName($gameVariables.value(1));
+logEvent({
+    type: "name_input",
+    value: $gameVariables.value(1)
+Great, \N[1]. Now go ahead and explore to your heart's content. I'll come find you again once the entire town has been scanned.
+A teammate misplaced an item during the mission
+Leo
+Hey, friend! A new face, huh? Just arrived here?
+My name is Leo. I should've been showing you around as a good host, but right now I'm
+busy taking care of something urgent and really can't spare the time. Since we happened to meet,
+could you do me a small favor?
+Yes
+No
+I left my cactus in the office. Could you bring it to me? I need it urgently.
+\N[1]
+Where is your office?
+The last house up ahead is my office. As for where exactly the cactus is...
+Uh, you'll see it when you go inside. Could you bring it to me? Thanks! I'll treat you to a cold drink later!
+Alright...
+Side Quest Acquired [Help Leo Find the Cactus]
+Huh? Turning me down that quickly? Come on, young friend, don't be so cold.
+Look, this place isn't exactly big, but it's definitely not small either. Since you're new here, there'll be times when you need my help.
+I really do have something urgent to take care of right now.
+Anyway, you're helping me with this cactus today whether you want to or not.
+B
+EV003
+Panes
+Hey! Are you blind? Good dogs don't block the way! Can you afford to compensate me for delaying my delivery?
+Lurib
+Oh. The road doesn't belong to you. I'd suggest learning some manners first.
+window.questionStart = performance.now();
+Please observe the two of them carefully. Who is on the verge of losing control?
+window.dataLog.push({
+    type: "D3-X情绪失控-选择",
+    question: "谁在情绪失控",
+    answer: "Lurib",
+    thinkingTime: Math.floor(performance.now() - window.questionStart)
+localStorage.setItem("dataLog", JSON.stringify(window.dataLog));
+Please enter the reason for selection
+替换输入结果 = 24
+最大文字数 = 100
+打开时强制退出输入 = 
+    type: "inputD3-X路边吵架",
+    question: "Lurib处于情绪失控",
+    answer: $gameVariables.value(24),
+    answer: "Panes",
+替换输入结果 = 25
+    question: "Panes处于情绪失控",
+    answer: $gameVariables.value(25),
+Who do you think is truly in control of the situation?
+    type: "D3-X情绪失控-选择2",
+    question: "谁掌控情绪",
+Stop being so pretentious with your language! You newspaper people just write rubbish every day! My delivery note must have been stolen by you!
+Now, immediately, take the cart back to the shop—this is an order!
+Push the cart? That's manual labor. I only use my brain and do high-IQ work. As for your delivery note…
+Wasn't it always in the pocket behind your butt?
+With memory this good, I'm genuinely surprised your weapons shop can still make money.
+Please judge whether the psychological defense mechanisms of the two people have wavered?
+Attack1
+Lurib wavered
+Panes wavered
+Both wavered
+Neither wavered
+    type: "D3-X心理防御机制-选择",
+    question: "心理防御机制有没有动摇",
+    answer: "Lurib动摇",
+替换输入结果 = 26
+    type: "inputD3-X路边吵架情绪动摇",
+    question: "Lurib处于情绪动摇",
+    answer: $gameVariables.value(26),
+    answer: "Panes动摇",
+替换输入结果 = 27
+    question: "Panes处于情绪动摇",
+    answer: $gameVariables.value(27),
+    answer: "都动摇",
+替换输入结果 = 28
+    question: "都处于情绪动摇",
+    answer: $gameVariables.value(28),
+    answer: "都不动摇",
+替换输入结果 = 29
+    question: "都不处于情绪动摇",
+    answer: $gameVariables.value(29),
+What do you think will happen next in their conversation?
+They attack each other.
+Nothing happens.
+    type: "D3-X心理防御机制-选择2",
+    question: "对话会怎么发展",
+    answer: "互相动手",
+    answer: "无事发生",
+Dog
+Shut up! Shut up! You poor wretch who only knows how to type! Do you even understand what labor is?!
+I'm furious! Get lost!!
+Paralyze2
+Your voice is quite loud. Unfortunately, impotent rage.
+QuestSystem
+GetRewards
+获取报酬
+变量ID = 91
+Yo, \N[1], you're here too
+Hurry up and leave, or someone will soon try to charge you a toll and say you're blocking their way
+C
+[Scene scan completed]
+This can be scanned too?!
+EV004
+!Other2
+EV005
+WD_Translation
+createNewJSON
+Write a new Translation JSON (Will overwrite existing!)
+Data Type = 3
+createAllNewJSON
+Write All Translation JSON (Will overwrite existings!)
+EV006
+EV007
+\N[1]! Where the hell have you been?! I've been waiting forever!
+Where is what I asked for? Don't tell me you came empty-handed!
+Who are you...? Do we know each other?
+Huh?! Did someone kick your brain?!
+What happened to the blue clothes I told you to pick up from my house last time?
+...Wait, where did I even put them? Whatever, just go get them!
+What are you dawdling for? The weapons shop still has to open!
+Cut the nonsense. Now, immediately, right now—go do it!
+So he's the weapons shop owner. Might as well scan his house.
+Obtained side quest: [Help Panes find the clothes]
+You finally brought it? ...Wait, did I even tell you to bring this one?
+Forget it! Whatever! At least you finally got it right once. You're really killing me here!
+Castle1
+Palles
+Hi, \N[1], we meet again
+Congratulations on helping Panes get the clothes!
+What do you think Panes' behavior is like?
+I think his behavior...
+makes me accept his rudeness
+gives me a chance to scan his house
+helps me better deal with him next time
+I feel nothing about it
+    type: "D1-4衣服-选择",
+    question: "Panes的行为",
+    answer: "让我接受他的粗鲁",
+    answer: "让我有机会去他家扫描",
+    answer: "下次能够让我更好的面对他",
+    answer: "没什么感觉",
+Is the following passage an objective description?
+When I first met Panes, he pointed out that I arrived later than he expected. He then asked me to help bring a blue piece of clothing. After going to another room to retrieve it, I handed it to him.
+Please repeat it.
+替换输入结果 = 6
+    type: "D1-4衣服-填空",
+    question: "复述客观描述",
+    answer: $gameVariables.value(6),
+Can you tell me what you consider to be an objective description?
+替换输入结果 = 7
+    question: "自认为客观描述",
+    answer: $gameVariables.value(7),
+You said it really well! I like it very much.
+变量ID = 84
+[Side Quest Completed]
+storm
+A storm is coming! Go take shelter at the inn—it's the building on the far right, marked with “INN” on it.
+EV008
+EV009
+EV010
+EV011
+City
+This isn't Lurib and Panes—why are they here?
+Let's go take a look.
+EV012
+!Door1
+Open1
+none
+EV013
+Something seems off...
+Loading [Learn about Sanef's past]
+Town4
+EV014
+What place is this...?
+EV015
+EV016
+Sleep
+Unable to enter
+EV017
+Loading [Learn about Laiuys' past]
+EV018
+EV019
+DKTools
+UpdateFileSystemStamp
+DKTools_Localization
+ExportAllText
+Ignore tags = false
+NPCAI
+    "你是Leo在报社工作，是镇子里的百事通，自来熟，不爱工作，爱看热闹。你的回答内容不超过3行，每行不超过25个中文字符",
+EV021
+Vehicle
+EV023
+EV024
+EV025
+Dofeng
+Ahem
+What are you doing at my doorstep?
+Dioem
+Hey! Little brother! Want some grilled meat? You're as skinny as a chick!
+You... why are you here...
+I'm not hungry. Just eat by yourself.
+This is already the third time Dofeng has discovered his older sister Dioem, an adventurer who had long since run away from home, grilling meat at his doorstep. Each time it smelled delicious, but he still refused.
+Should Dioem continue asking Dofeng if he wants grilled meat?
+Yes, Dofeng might just be shy and defensive; she should keep insisting.
+No, since he doesn't appreciate it, just let it go.
+    type: "D3-Y情绪接触-选择",
+    question: "要不要继续询问已经被拒绝的烤肉",
+    answer: "是",
+    answer: "否",
+Enough nonsense! If you're out here, you don't skip meat!
+From now on, I've got your back. Anyone dares bully you, just say the word! I'll get you whatever you want to eat!
+"Got my back?" Don't act all high and mighty! What do you even know?!
+You're so capable, of course everyone likes you!
+You don't understand what bullying even is!
+You don't understand what it's like to be hated by everyone, to be treated like trash by teachers!
+Dofeng suddenly erupts in anger. Is his anger because he dislikes Dioem, or is there another reason?
+Dofeng didn't run away; his emotions are somewhat out of control. He may actually be afraid.
+Dofeng dislikes Dioem. Dioem chooses to be harsh in return.
+    type: "D3-Y情绪接触-选择2",
+    question: "Dofeng突然大发雷霆。他的愤怒是因为讨厌Dioem，还是有别的原因",
+    answer: "Dofeng没有跑掉，情绪有些失控，可能其实是在害怕",
+    answer: "Dofeng讨厌Dioem,Dioeem选择凶回去",
+Fine, don't eat it then. Like I care!
+Crash
+Anyway, I'm just a useless failure. Don't bother with me anymore.
+Go live your shining adventurer life. Don't ever come back.
+If you were Dioem at this moment, what would you choose?
+Respect his wishes, turn around and leave, wait until he calms down.
+Ignore his words and hug him, comforting him.
+    type: "D3-Y情绪接触-选择3",
+    question: "如果这时候你是Dioem你会怎么选择",
+    answer: "尊重他的意愿，转身离开，等他冷静",
+    answer: "不管他的反话，拥抱他，安慰他",
+Don't cry anymore! This time I'm back, I'm staying for a long while. Those bullies will slowly get what's coming to them!
+From today on, you're the vice-captain of my adventuring party. Eat up—once you're done, help me carry my luggage inside!
+变量ID = 92
+[Scan task completed]
+D
+Town3
+Finally I can rest. I've been in class all day—so tiring.
+Let's get washed up and go to bed. I still have to wake up early tomorrow.
+Bell3
+You suddenly received a lot of messages.
+Obtained side quest
+At this moment, you think:
+The world is still running; someone needs to synchronize information with me.
+With so many messages, something big must have happened—no sleep tonight again.
+Maybe it's a message from someone I like.    type: "D2C-消息轰炸-选择",
+    question: "消息很多忽然的想法",
+    answer: "世界在运转，有人需要和我同步信息",
+    answer: "消息这么多，一定出大事了，今晚又别想睡了",
+    answer: "说不定是喜欢的人给我发消息了",
+I'm very tired right now. I should wash up first and check the messages later.
+It seems there are quite a few things, but I can handle them in batches and time slots.
+I can prioritize the most urgent issues first, without solving everything at once.
+Do you think this is the right approach?
+    type: "D2C-消息轰炸-选择2",
+    question: "分段处理消息是否正确",
+Please state the reason for thinking this way.
+替换输入结果 = 16
+按钮的相对 x 位置 = 50
+    type: "D2C-消息轰炸-填空2",
+    question: "分段处理消息正确原因",
+    answer: $gameVariables.value(16),
+替换输入结果 = 17
+    question: "分段处理消息不正确原因",
+    answer: $gameVariables.value(17),
+I can finally sleep peacefully.
+Saint4
+Cemo
+Not bad, \N[1]. It seems you've already learned how to handle message pressure skillfully.
+Now only the final challenge remains. Do you have confidence?
+Of course.
+I'm a bit tired.
+变量ID = 88
+No problem. If you want to participate, you can come back and find me anytime.
+!Chest
+Got the clothes Panes wanted.
+I heard the clothes Panes wants are in the blue box. As long as you open the box, you can find them!
+!Flame
+Anna
+Is there anything I can help you with?
+Hello, \N[1]. How's the weather today?
+I think it's okay.
+I'm the innkeeper. If you need anything, feel free to come to me.
+Come in and rest a bit, chat with everyone.
+Obtained side quest [Talk to everyone in the inn]
+Yo, what is this thing? Why are you suddenly handing this to me?
+Banso told me that giving you a gem would let me exchange it for gold.
+Oh! Right, I almost forgot!
+This shop receives and sends guests every day. I handle dozens of tasks—if not a hundred—daily.
+I've been so busy I could barely keep my feet on the ground. I actually forgot about this.
+Can I exchange it for gold now?
+That drunk Banso again...
+What's wrong?
+He knows nothing about quests! He's always soaking in a wine barrel, he's even forgetting his own name, and he still dares to guide others?
+Did he tell you it expires today? Ha! What a joke! This quest expired yesterday, and the 100 gold was already claimed by Lucas.
+What?? I'm going to find Banso.
+But... let me be kind. Seeing you run around all sweaty, I'll give you a 5% discount if you stay at my inn tonight.
+Maybe next time.
+Banso
+Bring me a bottle of alcohol!
+    "你是Banso，之前特别热爱生活，是有一身蛮力的木匠，但是一次制作家具的时候不小心被自己的学徒弄伤了，从此以后都不能握重物，就此消沉，但是学徒对你很好，你不能干活之后他就在赚钱养你，现在的你大部分时候都泡在酒馆里，回去就会对学徒的手艺指指点点。你的回答内容不超过20个中文字符",
+Hey, have you heard? If you can pass through that damn statue in the center of town before tomorrow and get the gem
+you can go find Anna and exchange it for 100 gold coins! One hundred! How much good liquor could that buy...
+Really? Is the statue in the center of town still passable?
+Of course. Once you take the quest, anything goes, but you have to be careful.
+Don't be fooled by how small this town is—there are plenty of dangerous, hidden experts here!
+And Anna said only 5 gems are needed. Five! For 100 gold coins!
+So, what do you think? Are you tempted?
+I...
+I'm not interested
+Sounds pretty good
+Tch! What a spineless coward! Such a great chance to make a fortune right in front of you, and you just
+pat your butt and say you're not interested?
+Why don't you go?
+If my hand wasn't ruined... if this damn hand could still hold an axe...
+They're nothing! I would've already stolen all the gems...
+Alright, then I'll think about it a bit more
+That said, to complete the scan mission I still have to take this quest
+Heh, I'm just a useless cripple who can't even hold a heavy hammer properly now... there's no way I can pass that statue...
+I'll give it a try. If I succeed, I'll share some good stuff with you when I come back
+That would be great! Go on, kid. I hope you really bring back those damn gems!
+I'll go watch the fun too!
+Side quest obtained: [Obtain 5 gems and deliver them to Anna]
+Oh! Look who it is! You actually managed to get the gems?!
+Hahaha! So? Struck it rich, you should at least bring me a bottle of good liquor, right?
+Hurry up and hand it over!
+A gift? You do know the quest expired yesterday, right?!
+W-what?! Damn it... I got so drunk last night my brain turned to mush...
+I actually got the date wrong?!
+Tch! No! How can you blame me?! It's all because Anna was mumbling when she posted the quest!
+Anna's got nothing but schemes in her head—she definitely set us up on purpose!
+Hi,\N[1]
+What do you think Banso's behavior is like?
+It taught me to double-check details
+Gave me a chance to complete the scan mission
+Helped me discover I'm actually good at finding things
+    type: "D1-2日程变化-选择",
+    question: "Banso行为",
+    answer: "让我学到了要确认详情",
+    answer: "给我机会完成扫描任务",
+    answer: "让我发现自己很有找东西的天赋",
+Banso, without confirming whether the quest was still valid, passed on information about an already expired quest  
+\N[1] and encouraged them to accept it, causing \N[1] to make a wasted trip. Afterwards he admitted  
+that he misremembered the quest deadline due to drinking, but immediately shifted part of the blame onto Anna.
+替换输入结果 = 10
+    type: "D1-2日程变化-填空",
+    answer: $gameVariables.value(10),
+替换输入结果 = 11
+    answer: $gameVariables.value(11),
+Horror
+[Side Quest Completed]
+变量ID = 82
+So boring! Why isn't anything interesting happening?
+I really like Laiuys, but I don't know how to get along with her...
+Please don't tell her
+    "你是Soug，村长的独子，从小就被培养琴棋书画样样精通，为人温文尔雅。从小把Laiuys当作妹妹照顾，忽然有一天发现自己对Laiuys是男女之间那种喜欢，但不知道该怎么说，想变成男女朋友但和她相处又很像兄妹。你的回答内容不超过2行，每行不超过20个中文字符。",
+Who are you...?
+I am \N[1], I just arrived in this town today
+Oh, a newcomer! How is our town?
+Not sure yet, but I think the town is fun, I want to look around everywhere
+Haha, the scenery here is indeed quite nice
+Have you always lived here?
+Of course, I...
+My favorite place is...
+What are you two talking about?
+And you are? We were talking about the scenery here
+Let me introduce myself, she is Lai...
+I am Laiuys. What nice scenery does this town even have? Don't tell me you're some country bumpkin from out of town
+I think it's very beautiful here, really worth exploring
+How boring. Soug, let's go
+What do you think Laiuys' behavior is like?
+I think she...
+might be in a bad mood
+doesn't like scenery
+is very fiery
+is targeting me
+    type: "D1-3打断说话-选择",
+    question: "Layuis行为",
+    answer: "可能心情不好",
+    answer: "不喜欢看风景",
+    answer: "很泼辣",
+    answer: "在针对我",
+After joining the conversation, Laiuys asked about the topic being discussed. Upon learning that \N[1]  
+was a newcomer from outside the town, she made a derogatory remark about them. She then responded negatively  
+to \N[1]'s view of the town's scenery and ended the current conversation,  
+choosing instead to leave the scene with Soug.
+替换输入结果 = 8
+    type: "D1-3打断说话-填空",
+    answer: $gameVariables.value(8),
+替换输入结果 = 9
+    answer: $gameVariables.value(9),
+变量ID = 83
+Welcome to the inn. Go greet the innkeeper—she is behind the counter.
+So that's what Laiuys' past was like...
+Hi, \N[1]!
+What would you say when facing Laiuys again?
+Me...?
+If I had experienced everything you went through, I might also be wary of outsiders like you.
+You must have had a very hard time all these years alone, right?
+I can understand your past misfortune, but that is not an excuse.
+So what? You deserved everything that happened to you.
+    type: "D4-3打断发言-选择",
+    question: "再次面对Laiuys会说什么",
+    answer: "换作是我经历你遭遇的一切，我大概也会和一样警惕外乡人",
+Please enter the reason for saying this.
+替换输入结果 = 48
+    type: "inputD4-3-再次见面-填空",
+    question: "会说理由换作是我经历你遭遇的一切，我大概也会和一样警惕外乡人",
+    answer: $gameVariables.value(48),
+    answer: "这些年你一个人一定很辛苦吧？",
+替换输入结果 = 49
+    question: "会说理由这些年你一个人一定很辛苦吧？",
+    answer: $gameVariables.value(49),
+    answer: "我能够理解你过去的不幸，但这不是理由。",
+替换输入结果 = 50
+    question: "我能够理解你过去的不幸，但这不是理由。",
+    answer: $gameVariables.value(50),
+    answer: "怎么？你遇到这一切都是活该",
+替换输入结果 = 51
+    question: "怎么？你遇到这一切都是活该",
+    answer: $gameVariables.value(51),
+I understand. That's a very good reason.
+变量ID = 98
+Self4
+Soug (young)
+Why are you alone at home? Where is your mother?
+Laiuys (young)
+Should I tell Soug...?
+I don't know... that day my mother said she was going out to buy food and never came back after that
+Have you been eating these past few days? Are you hungry?
+A little...
+I'll take you to my house to eat, and from now on you can come live with me
+No... I want to wait for my mother to come back
+Today I can take you to see your father, do you want to go?
+Really? Let's go quickly
+What do you need me for?
+Do you want to go see your father? I already spoke with my dad, I can take you
+Welcome to the magical tavern! There are many unexpected things here
+Do you know what it means to enter this tavern?
+Do you think you can handle it?
+...loading...
+There are many small quests waiting for you to take on! \N[1] do you want to try?
+Theme1
+letter
+Congratulations, you obtained item [Ruke's 1000 lottery tickets]
+From then on, Sanef never went cave exploring again. He only silently drew lottery tickets
+in the corners of the city. A long time passed, and he never drew a diamond. He also wondered
+whether Ruke had been mistaken, and there were actually no diamonds at all. But no one could answer this question.
+Sanef did any work he could, and spent all the money he earned on treating Ruke's sister.
+So this is what Sanef's past was like...
+When facing Sanef again, what would you say to him?
+I understand your difficulties. I can also contribute a little to your sister's illness treatment
+I understand your urgency, but lottery drawing is not a long-term solution
+I misunderstood you before, I'm here to help this time
+I sympathize with your situation, but teamwork cannot always rely on gambling
+You have your reasons, but you cannot let us bear the burden for you
+    type: "D4-5抽奖-选择",
+    question: "再次面对Sanef的时候你会和他说什么？",
+    answer: "知道你的苦衷了，妹妹的病我也可以献上一点力量",
+The reason for saying this is...
+替换输入结果 = 52
+    type: "D4-5抽奖-填空",
+    question: "原因知道你的苦衷了",
+    answer: $gameVariables.value(52),
+    answer: "理解你的急切，但抽奖并不是长久之计",
+替换输入结果 = 53
+    question: "原因理解你的急切",
+    answer: $gameVariables.value(53),
+    answer: "之前误会你了，这次来帮你",
+替换输入结果 = 56
+    question: "原因之前误会你了",
+    answer: $gameVariables.value(56),
+    answer: "同情你的遭遇，但团队合作不可以一直投机",
+替换输入结果 = 57
+    question: "原因同情你的遭遇",
+    answer: $gameVariables.value(57),
+    answer: "你有苦衷但不能让我们帮你承担",
+替换输入结果 = 59
+    question: "原因不能让我们帮你承担",
+    answer: $gameVariables.value(59),
+变量ID = 99
+Evil
+    "你是村长只有利益才能改变你的行为、但是把村镇管理的很好、对于穷人严守规则，对于富人守80%的规则。宠溺儿子Soug。你的回答内容不超过15个中文字符",
+SF_Damage1
+Self2  
+Laiuys' mother  
+Village chief, please, help us get the money back. It's all the outsiders' fault  
+People3  
+Village chief  
+*sigh* ... You've blown this matter out of proportion!  
+Besides, everything was her father's own choice.  
+If it weren't for that outsider, how could our family have...  
+You know, Laiuys' father has always been honest.  
+He only likes making weapons... if it weren't for that outsider, he would never  
+have gone gambling!  
+Enough. Laiuys is still young. Take her and live properly. As for her father,  
+he embezzled so much money for gambling, and now he can't even deliver the weapons,  
+so he can only await trial in court.  
+As for that outsider, I will talk to him.  
+Village chief, please help us...  
+Dad, I want to go horseback riding. Do you have time today?  
+I'll take you later. Go upstairs first.  
+Take Laiuys back for now.  
+Hello, I am Lurib. Who are you?  
+Hello Lurib, I came to help Leo find a cactus, but...  
+Oh... Marin sent you? She's got nothing better to do, but she sure knows how to give me trouble.  
+A cactus? Open your eyes and look at that messy table behind me—  
+does it look like any plant could survive here?  
+Let me check.  
+I didn't see it.  
+Tch, don't ask me anymore. I already get annoyed just speaking more than a few words. Go bother Seldia instead.  
+She's naturally overworked; she'll definitely know more than I do.
+    "你是Lurib在报社工作，讲究工作生活双平衡、比较爱偷懒、爱嘲讽别人，说话简短，每次不超过20个中文字符",
+NPC1  
+Hello, I am \N[1]...  
+Marin  
+Tch. Didn't you see I'm busy? I'm Marin. I clock out exactly at 5:30,  
+and dinner is already being prepared at home. I don't have time to waste here with you.  
+Leo asked me to help find a cactus.  
+A cactus? Are your eyes just decoration? If it's not on the table, is it on the ceiling?  
+I'll go look for it.  
+Alright, alright, stop blocking my light. Go ask Lurib!  
+Who is Lurib...?  
+How do you recognize him? Ha, anyone with eyes can spot him instantly. In the whole newsroom, he's the only one with blue hair—  
+he stands out a lot!
+    "你是Marin在报社工作，工作效率高、下班早、家庭富裕。你的回答内容不超过2行，每行不超过15个中文字符",
+Seldia
+Oh hello hello! I'm Seldia. I've finally been waiting for you to show up!
+You're here looking for that cactus, right?
+Ah, Lurib and Marin just mentioned it to me.
+Especially Lurib—he's always slacking off. The whole newsroom basically runs on my performance.
+I'm so busy I feel like I'm spinning around nonstop!
+Look closely, the cactus is right there on the floor next to the table!
+Did you see it?
+By the way... after you take the pot away, do you still want the plastic tray underneath it?
+I was planning to take it home and put it under my mom's dying garlic plant, so I don't have to buy one.
+    "你是Seldia在报社工作，热爱工作、一心扑在事业上、家庭比较穷，爱占小便宜，但对人又很热心。你的回答内容不超过2行，每行不超过20个中文字符",
+Still haven't found it?
+You're a bit slow...
+Item
+Congratulations, you obtained [Cactus]
+How do you feel now?
+My feelings...?
+This side quest is really troublesome
+These people are messing with me
+I don't have any particular thoughts
+Finally found it
+    type: "D1-错放物品-选择",
+    question: "关于错放物品的心情",
+    answer: "这个支线任务好麻烦",
+    answer: "这几人在逗我玩",
+    answer: "没什么想法",
+    answer: "终于找到了",
+Leo tasked \N[1] with retrieving a cactus from the office. \N[1] then asked three people in succession for information.  
+In the end, the third person pointed out that the cactus was on the floor next to the desk,  
+and also requested the plastic tray underneath the pot.
+替换输入结果 = 2
+    type: "D1-错放物品-填空",
+    answer: $gameVariables.value(2),
+替换输入结果 = 3
+    question: "玩家自认为客观描述",
+    answer: $gameVariables.value(3),
+变量ID = 81
+Hi \N[1], I am the owner of this tavern. Your task today is:  
+Within a time limit of 30 seconds, help me collect all the chairs in the tavern. After completing the task, I can give you some gold coins so you can buy anything you want.  
+Also, you must place the collected chairs in the bottom-left corner.  
+Do you accept the task?  
+You can observe the environment first and come to me anytime to start.  
+Are you ready to begin the task?  
+Congratulations, you obtained the mini-game [Collect all chairs in the tavern]  
+Timer starts now!
+MOG_VisualTimer
+VisualTimerXY
+时间测量器位置
+X轴偏移 = 2
+Y轴偏移 = 10
+I want to exit this game.
+Great, this mini-game was indeed no challenge for you.
+Do you think this task was stressful for you?
+I don't know.
+    type: "D2-A",
+    question: "椅子是否有压力",
+If we did it again, would you still take part in this game?
+Haha, let's talk about it next time if there's a chance!
+Haha, don't be nervous, this game is temporarily over
+    answer: "不知道",
+Are you ready for the next challenge?
+Of course
+I want to take a break
+EV020
+EV022
+!Switch1
+Congratulations on collecting all the chairs!
+EV027
+    "你是Cemo，酒馆老板，爱搞一点小任务小冒险，说话直爽，做事大气，给的酒都是真材实料的好货。你的回答内容不超过15个中文字符",
+Hi \N[1], are you here to take on an unfinished task?
+Which task do you want to join?
+Classroom scene
+Home scene
+Roadside scene
+No problem, let's set off
+Then feel free to look around
+en1
+Loading EORY Town...
+SF_Actor1
+    "你是Aeflsod，Ruke的妹妹，你哥哥死于探险（石窟通道塌陷）身体很差，但是长相漂亮，非常温柔，学习成绩也很好。每次说话不超过20个中文字符。",
+Selof teacher!!
+Strange, why isn't Teacher Selof responding to me
+At this moment, you think Teacher Selof
+might be wearing headphones and didn't hear
+was distracted and thinking about something
+is unhappy with my recent performance
+    type: "D2D-老师不理人-选择",
+    question: "老师不理人原因",
+    answer: "可能戴着耳机没听见",
+It seems the teacher's headphones are of good quality. I'll go ask what brand they are
+    answer: "在想事情分神了",
+The teacher looks very tired, I'd better just say hello and leave
+    answer: "对我最近的表现不满意",
+Please enter what you think Teacher Selof is dissatisfied with you about
+替换输入结果 = 18
+    type: "D2D-老师不理人-填空",
+    question: "老师不理人原因-不满意",
+    answer: $gameVariables.value(18),
+Please enter the reason you think Teacher Selof is targeting you
+替换输入结果 = 19
+    question: "老师不理人原因-针对",
+    answer: $gameVariables.value(19),
+Selof teacher  
+\N[1], were you calling me?  
+I was just thinking about the study plan the principal gave me and didn't hear you clearly, sorry!  
+I think from this experience I learned not to assume the worst about things  
+    type: "D2D2-老师不理人-选择2",
+    question: "关于不以糟糕心态对待事情",
+Then I learned...
+替换输入结果 = 15
+    type: "D2D2-老师不理人-填空2",
+    question: "关于不以糟糕心态对待事情学到了什么",
+    answer: $gameVariables.value(15),
+Selof teacher is in front! Should I go up and say hello?
+Teacher Selof is usually quite nice to me, I might just chat with her casually.
+Teacher Selof is usually quite nice to me and has always encouraged me, so I should
+go up and say hello.
+Nice job, \N[1], it seems you are now able to assess your current situation.
+The tavern challenge ends here! If you want to buy drinks, feel free to come anytime, I'll be very happy to see you.
+Actor2  
+Why did everything suddenly go quiet... looks like I should hurry back to my seat...
+What do you think it means that they suddenly stopped talking?
+The fact is that class is about to start  
+Their sudden silence has nothing to do with me  
+I am being excluded by my classmates
+    type: "D2-B迟到-选择",
+    question: "为什么安静心情",
+    answer: "事实是上课时间要到了",
+    answer: "他们忽然安静和我没有关系",
+    answer: "我被同学们排挤了",
+Sorry students, I'm late.
+Now let's get ready to start class!
+Great!
+It seems my classmates didn't suddenly stop talking because they were targeting me
+I think I can learn something from this, for example to reduce blaming myself when things happen
+    type: "D2-B迟到-选择2",
+    question: "遇到事情减少责备自己",
+}); 
+I think the benefit of doing this is...
+替换输入结果 = 13
+    type: "D2-B迟到-填空2",
+    question: "为什么减少责备自己好处",
+    answer: $gameVariables.value(13),
+I think it is...
+替换输入结果 = 14
+    question: "为什么不要减少责备自己",
+    answer: $gameVariables.value(14),
+The reason for thinking this way is...
+替换输入结果 = 21
+    type: "inputD2-B忽然安静",
+    question: "认为原因事实是上课时间要到了",
+    answer: $gameVariables.value(21),
+替换输入结果 = 22
+    type: "inputD2-B忽然安静-填空",
+    question: "认为原因他们忽然安静和我没有什么关系",
+    answer: $gameVariables.value(22),
+替换输入结果 = 23
+    question: "认为原因我被同学们排挤了",
+    answer: $gameVariables.value(23),
+变量ID = 87
+It seems you're not very satisfied with this scenario theater.
+Next, follow me.
+Let's go!
+I want to rest for a bit.
+SF_Actor3  
+I can win it back... I can win it back...
+SF_Damage2  
+Laiuys' father  
+Laiuys, why are you here?  
+Soug brought me here.  
+Where is your mother? When are you going to get me out?  
+Should I tell father that mother is gone?  
+Mom said she was going out to buy something last time, and she never came back.  
+I knew it. She was never a good person. She ran away the moment I got into trouble.  
+What about the new merchant? Go get him!  
+As long as I play one more round, all the money in his pocket will be mine!  
+Then let's see who still dares to look down on me.  
+Dad...  
+Don't block my way to fortune! Go call him now!  
+Mom... Mom is sick and resting at home.  
+I think she's just pretending. Who knows if she's hiding money at home?  
+But... what about the new merchant? Go get him!  
+I heard your father owes a lot of money. You'll never get out in this lifetime.  
+Who's this brat? How dare you run around in the prison!  
+From then on, Laiuys' life became extremely difficult. She survived only on food given by villagers.  
+She only had one friend, Soug. Like a hedgehog, she treated anyone who approached Soug  
+with hostility, and she no longer showed kindness to any outsider.  
+Raku  
+Sanef, you're here. Is the map done?  
+You really understand me, I just finished it.  
+Not yet, this cave is too big.  
+Here's the map.  
+I also recorded the clues we heard at the tavern.  
+Working with you is great.  
+I think there's diamonds on this level. If we can dig them out, we'll make a fortune.  
+That's what I think too.  
+Let's go.  
+What's left? Let's finish it together.  
+Only this level remains.  
+But there are diamonds here. If we can find them, your sister's illness...  
+Let's hope we have good luck today.  
+SF_Monster  
+Where did these brats come from? This is my territory.  
+Do you want to ask what he's doing?  
+Is there anything here?  
+You greenhorns, I'm doing a lottery. You don't even know that?  
+Judging by your gear, you're explorers too. How do you not know this?  
+Lottery? First time hearing about it. Ruke, have you heard of it?  
+No, don't believe this. Let's go.  
+We've searched everywhere here and still no trace of diamonds. Where could they be?  
+Maybe... we should ask that guy again. Maybe he got them first.  
+Excuse me... what prizes can you win from the lottery?  
+All good stuff. Want to play?  
+You need lottery tickets to start.  
+Go find out how to get lottery tickets yourselves.  
+Now move aside, don't pass your bad luck to me.  
+"You are a greedy explorer who loves gambling: stingy, realistic, speaks briefly"  
+Congratulations, you obtained [Useless Stone]  
+Congratulations, you obtained [Gem Fragment]  
+Wait... I think I dropped something.  
+Why hasn't Ruke come back yet?  
+I'll go find him.  
+Sanef, you go back first. I still have something to do here.  
+Do you want to stay with Ruke?  
+You don't want to try the lottery, do you? He already told you how to get tickets, right?  
+Go back first. I'll talk to you later.  
+Then I'll go first. Be careful.  
+[Congratulations \N[1] for helping the ME-AI system complete the scan of EORY Town]  
+High-dimensional channel opened. ME-AI system is loading...  
+Loading successful. Executioner cognitive unlock in progress.
+en
+const data = JSON.stringify(window.dataLog, null, 2);
+const blob = new Blob([data], {
+    type: "application/json"
+const url = URL.createObjectURL(blob);
+const a = document.createElement("a");
+a.href = url;
+a.download = "game_data.json";
+a.click();
+URL.revokeObjectURL(url);
+结束游戏导出
+function csvEscape(value) {
+    return `"${String(value ?? "").replace(/"/g, '""')}"`;
+let csv =
+    "type,question,answer,thinkingTime,time\n";
+window.dataLog.forEach(item => {
+    csv += [
+        csvEscape(item.type),
+        csvEscape(item.question),
+        csvEscape(item.answer),
+        item.thinkingTime ?? "",
+        item.time ?? ""
+    ].join(",") + "\n";
+const blob = new Blob(
+    ["\ufeff" + csv],
+    { type: "text/csv;charset=utf-8;" }
+a.download = "game_data.csv";
+    "你是Laiuys小时候特别幸福，爸爸妈妈都很爱她，爸爸是村里唯一的武器店老板。忽然有一天来了一个外乡人，你爸爸在他的怂恿下开始赌博，输掉了家里所有的钱，并且还欠了一屁股债，别人给的武器定金他都全部挪用了。爸爸被抓，妈妈忽然消失，8岁的你生活苦不堪言，全靠村民们给你施舍食物，才能够长大。只有Soug这一个朋友。像刺猬一样，对待所有靠近Soug的人，同时也不再给任何外乡人好脸色。你的回答内容不超过20个中文字符",
+    "你是Mao是一个兼职冒险家，主业是星盘测算。爱探险、有责任心、会给别人施加压力，说话有销售习惯。你的回答内容不超过3行，每行不超过20个中文字符",
+    "你是Sanef富三代但和家里闹掰了，曾经是探险家，有个好朋友Ruke在一次探险中被塌陷埋藏了，从此你再也不爱探险，就想着抽抽奖，抽奖的钱全拿给Ruke的妹妹治病了。和你好朋友的故事你不想告诉任何人。只是任何人阻止你抽奖你都会对他生气。有责任心。你的回答内容不超过20个中文字符",
+    "你是Dioem全职冒险家，爱探险，为人热情、慷慨，大大咧咧，和谁都能相处的很好。你的回答内容不超过2行，每行不超过25个中文字符",
+    "你是Dofeng从小就被校园霸凌，不仅同学欺负你，老师也欺负你，你很需要别人的关怀和关心。你的回答内容不超过2行，每行不超过25个中文字符.",
+    "你是Panes在武器店上班，平时老喜欢丢三落四，爱使唤别人，不讲礼貌，性格暴躁。你的回答内容不超过20个中文字符",
+!Door2
+The next day  
+...Where is this place? I should explore it properly  
+Congratulations, you have completed the side quest  
+What do you think Sanef's behavior is like?  
+Who is Sanef?  
+Oh, you forgot who Sanef is—it's the one who keeps playing the lottery  
+Chose a different approach  
+Is good at lotteries  
+This is not a bad thing  
+Deliberately delaying time
+    type: "D1-5抽奖-选择",
+    question: "Sanef行为",
+    answer: "选择了不同方法",
+    answer: "比较擅长抽奖",
+    answer: "这不是一件坏事",
+    answer: "故意拖延时间",
+Sanef first provided lottery tickets to \N[1] and invited them to participate in the lottery. Later, he stated that he preferred
+the lottery over searching for gems, and claimed that he had already won; afterward he refused to provide more lottery tickets
+and said he would use them himself. When \N[1] repeatedly asked about the progress of the gems, he showed impatience and told
+the other party not to rush him; in the end, he handed over a single gem from his belongings to the other party.
+替换输入结果 = 4
+    type: "D1-5抽奖-填空",
+    answer: $gameVariables.value(4),
+替换输入结果 = 5
+    answer: $gameVariables.value(5),
+变量ID = 85
+Hello, I am \N[1]
+I know you, we are teammates. I'm looking for gems here, and I've already searched this whole area.
+There shouldn't be any other gems here.
+But you can try looking again.
+Then I'll go check another place.
+I don't think I found enough gems...
+It looks like you've been working hard to find the gems too.
+Then I'll give you these three gems.
+Let's both keep looking.
+I didn't find any other gems...
+    "你是Dioem，全职冒险家，爱探险，为人热情、慷慨，大大咧咧，和谁都能相处的很好。你的回答内容不超过2行，每行不超过25个中文字符",
+Congratulations, you found a golden apple!
+Congratulations, you found a gem!
+Mao  
+Finally you're here. We need to collect 12 gems.  
+Wait, wait, wait...  
+But I heard the golden apple can be exchanged for 3 gems.  
+See if you can find it—I've searched for a long time and still haven't seen it.  
+I'll keep looking for gems here, you can go check other places.  
+What's wrong with this girl? She's not even listening to me and suddenly gives me a quest.  
+Forget it, I still need to scan this area anyway. I'll go take a look—it might help complete the task together.  
+Maybe I can even get to know her.  
+Side quest obtained [Teamwork: find 12 gems]
+I've found all the gems! What about you?  
+I found the golden apple!  
+Great, then we've collected all the gems!  
+I haven't found enough yet.  
+Ah, as expected it's not easy. I'll give you all 3 first, keep looking a bit more.  
+But... you should try looking for the golden apple. That might be faster.  
+Still haven't found it? It's a bit slow...  
+Looks like I need to go find an old lady to complete the quest...
+    "你是Mao：爱探险、有责任心、会给别人施加压力",
+CPWH_LotteryCore
+LotteryPool
+操作奖池
+add
+指令 = add
+奖池id = 1
+Monster
+unnamed
+Do you want to try the lottery? There's a chance you can obtain gems
+StartLottery
+开始抽奖
+下次再来！
+Hi, \N[1], I'm playing the roulette wheel, do you want to join?
+I can give you two tickets.
+Here are the lottery tickets, enjoy yourself.
+What prizes are in the prize pool?
+See for yourself, don't bother me.
+Are we teammates trying to collect 12 gems together?
+I know we need to find gems, but I think the lottery is faster.
+Besides, I've already won something.
+Sanef...
+I don't have any more lottery tickets for you. I still need the rest for myself!
+Sanef, have you collected all the gems yet?
+Are you annoying? Stop rushing me. I haven't won yet, just wait.
+I'll give you the gem I have on me first. Don't come bother me again.
+    "你是Sanef，富三代但和家里闹掰了，曾经是探险家，任何人阻止你抽奖你都会对他生气。你现在在抽奖，有责任心。你的回答内容不超过20个中文字符",
+    "你是Sanef，富三代但和家里闹掰了，曾经是探险家，有个好朋友Ruke在一次探险中被塌陷埋藏了，从此你再也不爱探险，就想着抽抽奖，抽奖的钱全拿给Ruke的妹妹治病了。和你好朋友的故事你不想告诉任何人。只是任何人阻止你抽奖你都会对他生气。有责任心。你的回答内容不超过20个中文字符",
+变量ID = 89
+auto scan
+mplus-2p-bold-sub.woff
+Microsoft Yahei, PingFang SC, sans-serif
+Ship3
+Battle1
+Ship1
+Defeat1
+Gameover1
+Ship2
+Cursor3
+Decision2
+Cancel2
+Buzzer1
+Equip1
+Save2
+Load2
+Run
+Attack3
+Damage4
+Collapse1
+Collapse2
+Collapse3
+Damage5
+Collapse4
+Recovery
+Miss
+Evasion1
+Evasion2
+Reflection
+Shop1
+Item3
+关闭仙人掌
+禁止二次输入
+正常存在
+系统初始化
+D2-1收盘子
+AI角色
+D2D双块
+等级
+精神韧性
+心理能量
+焦虑值
+经验值
+战斗
+逃跑
+攻击
+防御
+物品
+技能
+装备
+状态
+整队
+保存
+游戏结束
+选项
+武器
+防具
+重要物品
+最强装备
+清空
+重新开始
+继续游戏
+回到标题
+取消
+购买
+销售
+最大精神韧性
+最大心理能量
+去中心化思考
+深呼吸
+事实检验
+接纳
+敏捷
+幸运
+命中率
+回避率
+始终跑步
+记住指令
+触屏界面
+背景音乐音量
+背景声音量
+音效音量
+声效音量
+持有数
+现在的%1
+距离下一%1
+保存到哪个文件？
+读取哪个文件？
+文件
+自动保存
+%1的队伍
+%1出现了！
+%1先发制人！
+%1被偷袭了！
+%1开始逃跑了！
+但是没有逃跑成功！
+%1胜利了！
+%1被击败了。
+获得了 %1 点%2！
+获得了 %1\G！
+获得了%1！
+%1升到了 %2 %3！
+学会了%1！
+%1使用了%2！
+会心一击！
+沉痛一击！
+%1受到了 %2 点伤害！
+%1恢复了 %3 点 %2！
+%1的 %2 增加了 %3 点！
+%1的 %2 减少了 %3 点！
+%1被吸收了 %3 点 %2！
+%1没有受到伤害！
+未击中！ %1没有受到伤害！
+没有对%1造成伤害！
+%1躲开了攻击！
+%1抵消了魔法！
+%1反射了魔法！
+%1的反击！
+%1保护了%2！
+%1的%2上升了！
+%1的%2下降了！
+%1的%2恢复正常了！
+对%1没有效果！
+Theme4
+姓名
+错放物品
+错放物品不够客观
+对于Sanfe的行为
+对于Sanfe的行为不够客观
+Panes行为
+对于Panes的行为不够客观
+Laiuys行为
+Laiuys行为不够
+Banso行为
+Banso行为不够
+D22积极好处
+D22为什么不积极
+D22学到了什么
+D2C正确原因
+D2C不正确原因
+D2D不满意
+D2D针对
+D2B认为原因1
+D2B认为原因2
+D2B认为原因3
+D3路边吵架情绪失控L
+D3路边吵架情绪失控P
+D3路边吵架动摇L
+D3路边吵架动摇P
+D3路边吵架都动摇
+D3路边吵架都不动摇
+D4-3理由1
+D4-3理由2
+D4-3理由3
+D4-3理由4
+D4-4理由1
+D4-4理由2
+D4-3被打断1
+D4-3被打断2
+D4-4理由3
+D4-4理由4
+D4-5
+D4-4理由5
+D41监狱开门1
+D41监狱开门2
+D41监狱开门3
+1仙人掌错放物品
+1宝石日程变动
+1打断玩家发言
+1衣服出现歧义
+1抽奖选择不同方法
+2压力任务收盘子
+2B窃窃私语
+2C消息轰炸
+2D老师不理人
+3X暂停判断
+3Y情绪接触
+扫描EORY小镇物品版
+4打断玩家发言
+4抽奖选择不同方法
+扫描EORY小镇
+Victory1
+宝石池
+选择奖池
+单抽
+十连抽
+%1 (%2: %3 / %4)
+需要道具：
+保底
+[保底]
+[已获得]
+抽奖结果：
+抽奖
+%1 抽奖记录（已抽%2次）
+找到Leo的仙人掌
+exp
+帮助Leo找到房间里的仙人掌
+找到宝石并交给Anna
+通过村镇中央的石像获取宝石，并交给Anna，获得奖励
+与客栈里其他人聊天
+与客栈里所有人聊天
+帮助Panes找到衣服
+帮助Panes找到房间里的蓝色衣服
+和伙伴们一起找宝石
+一起找到12颗宝石
+教室
+消息
+路边
+吵架
+烤肉
+orderingQuest
+reportedQuest
+all
+Skill1
+查看任务
+是否领取本任务？
+是否取消本任务？
+是否汇报本任务？
+本任务不存在。
+您将获取如下打赏。
+任务数已达上限。
+？？？？？？
+全部任务
+领取任务
+任务进行中
+取消任务
+提交任务
+任务已完成
+任务已失败
+任务已失效
+任务未知
+未领取
+进行中
+可提交
+已完成
+失败
+已失效
+【委托人】：
+【报酬】：
+【难易度】：
+【场所】：
+【期限】：
+#ffffff
+#FFCC00
+#FF3333
+#ff0000
+---------------------------------
+node_modules
+img/tilesets/
+img/parallaxes/
+FPS
+None
+errors_log.txt
+Game has encountered a bug. Please report it.
+Press F5 to restart the game.
+white
+Scene_Map
+screenshots/
+%year_%month_%day_%hours_%minutes_%seconds.png
+png
+Exit
+parameters
+Chinese
+zh
+English
+save/locale.rmmzsave
+locales/
+.csv
+;
+auto
+Animations
+MapInfos
+Tilesets
+Stamp
+{interface_language}
+locale_%1
+{audio_language}
+{options_on}
+{options_off}
+Select language
+flag_%1
+Window
+Graphics.boxHeight / 4;
+Graphics.boxWidth / 3 - (Graphics.boxWidth / 3 - left.width * left.anchor.x) / 2;
+Graphics.boxWidth * 2 / 3 + (Graphics.boxWidth / 3 - right.width * right.anchor.x) / 2;
+Graphics.boxHeight * 3 / 4 - 72;
